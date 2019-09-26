@@ -97,7 +97,7 @@ $lang['contract_lowercase']       = 'contract';
 $lang['contract_start_date']      = 'تاريخ البدء';
 $lang['contract_end_date']        = 'تاريخ الانتهاء';
 $lang['contract_subject']         = 'الموضوع';
-$lang['contract_description']     = 'المحتوى';
+$lang['contract_description']     = 'وصف العقد';
 $lang['contract_subject_tooltip'] = 'الموضوع مرئي للعميل';
 $lang['contract_client_string']   = 'Customer';
 $lang['contract_attach']          = 'إرفاق مستند';
@@ -125,7 +125,7 @@ $lang['currency_add_heading']          = 'Add New Currency';
 $lang['departments']                 = 'الأقسام';
 $lang['department']                  = 'القسم';
 $lang['new_department']              = 'قسم جديد';
-$lang['department_lowercase']        = 'department';
+$lang['department_lowercase']        = 'قسم';
 $lang['department_name']             = 'اسم القسم';
 $lang['department_email']            = 'ايميل القسم';
 $lang['department_hide_from_client'] = 'اخفاء عن العميل؟';
@@ -134,8 +134,8 @@ $lang['department_list_name']        = 'الإسم';
 # Email Templates
 $lang['email_templates']                        = 'قوالب الإيميل';
 $lang['email_template']                         = 'قالب الإيميل';
-$lang['email_template_lowercase']               = 'email template';
-$lang['email_templates_lowercase']              = 'email templates';
+$lang['email_template_lowercase']               = 'قالب إيميل';
+$lang['email_templates_lowercase']              = 'قوالب إيميل';
 $lang['email_template_ticket_fields_heading']   = 'تذاكر';
 $lang['email_template_invoices_fields_heading'] = 'الفواتير';
 $lang['email_template_clients_fields_heading']  = 'Customers';
@@ -174,11 +174,11 @@ $lang['newsfeed_published_post']                            = 'منشور';
 $lang['newsfeed_you_like_this']                             = 'You like this';
 $lang['newsfeed_like_this']                                 = 'like this';
 $lang['newsfeed_one_other']                                 = 'أخرى';
-$lang['newsfeed_you']                                       = 'you';
-$lang['newsfeed_and']                                       = 'and';
-$lang['newsfeed_you_and']                                   = 'You and';
-$lang['newsfeed_like_this_saying']                          = 'Like this';
-$lang['newsfeed_unlike_this_saying']                        = 'Unlike this';
+$lang['newsfeed_you']                                       = 'أنت';
+$lang['newsfeed_and']                                       = 'و';
+$lang['newsfeed_you_and']                                   = 'أنت و';
+$lang['newsfeed_like_this_saying']                          = 'أعجبتم بهذا';
+$lang['newsfeed_unlike_this_saying']                        = 'لم يعجبكم هذا';
 $lang['newsfeed_show_more_comments']                        = 'إظهار المزيد من التعليقات';
 $lang['comment_this_post_placeholder']                      = 'التعليق على هذا المنشور..';
 $lang['newsfeed_post_likes_modal_heading']                  = 'الأصدقاء الذين أعجبوا بهذا المنشور';
@@ -244,10 +244,10 @@ $lang['invoice_record_payment_note_placeholder'] = 'ملاحظة المسؤول'
 $lang['no_payments_found']                       = 'لم يتم العثور علي مدفوعات لهذه الفاتوره';
 
 # Payments
-$lang['payments']                             = 'Payments';
-$lang['payment']                              = 'Payment';
-$lang['payment_lowercase']                    = 'payment';
-$lang['payments_table_number_heading']        = 'Payment #';
+$lang['payments']                             = 'المدفوعات';
+$lang['payment']                              = 'المدفوع';
+$lang['payment_lowercase']                    = 'مدفوعات';
+$lang['payments_table_number_heading']        = 'مدفوع #';
 $lang['payments_table_invoicenumber_heading'] = 'رقم الفاتورة';
 $lang['payments_table_mode_heading']          = 'حالة الدفع';
 $lang['payments_table_date_heading']          = 'التاريخ';
@@ -312,104 +312,104 @@ $lang['ticket_priority_add_edit_name'] = 'Priority Name';
 
 # Reports
 $lang['kb_reports']                                       = 'تقارير مقالات قاعدة البيانات';
-$lang['sales_reports']                                    = 'Sales Reports';
-$lang['reports_choose_kb_group']                          = 'Choose Group';
-$lang['report_kb_yes']                                    = 'Yes';
-$lang['report_kb_no']                                     = 'No';
-$lang['report_kb_no_votes']                               = 'No votes yet';
-$lang['report_this_week_leads_conversions']               = 'This Week Leads Conversions';
-$lang['report_leads_sources_conversions']                 = 'Sources Conversion';
-$lang['report_leads_monthly_conversions']                 = 'Monthly';
-$lang['sales_report_heading']                             = 'Sales Report';
-$lang['report_sales_type_income']                         = 'Total Income';
-$lang['report_sales_type_customer']                       = 'Customers Report';
-$lang['report_sales_base_currency_select_explanation']    = 'You need to select currency because you have invoices with different currency';
-$lang['report_sales_from_date']                           = 'From Date';
-$lang['report_sales_to_date']                             = 'To Date';
-$lang['report_sales_months_all_time']                     = 'All Time';
-$lang['report_sales_months_six_months']                   = 'Last 6 months';
-$lang['report_sales_months_twelve_months']                = 'Last 12 months';
-$lang['reports_sales_generated_report']                   = 'Generated Report';
-$lang['reports_sales_dt_customers_client']                = 'Customer';
-$lang['reports_sales_dt_customers_total_invoices']        = 'Total Invoices';
+$lang['sales_reports']                                    = 'تقارير المبيعات';
+$lang['reports_choose_kb_group']                          = 'اختيار مجموعة';
+$lang['report_kb_yes']                                    = 'نعم';
+$lang['report_kb_no']                                     = 'لا';
+$lang['report_kb_no_votes']                               = 'لم يتم التصويت بعد';
+$lang['report_this_week_leads_conversions']               = 'عمليات التحويل المهمة لهذا الاسبوع';
+$lang['report_leads_sources_conversions']                 = 'تحويل المصادر';
+$lang['report_leads_monthly_conversions']                 = 'شهري';
+$lang['sales_report_heading']                             = 'تقرير المبيعات';
+$lang['report_sales_type_income']                         = 'إجمالي الدخل';
+$lang['report_sales_type_customer']                       = 'تقرير العملاء';
+$lang['report_sales_base_currency_select_explanation']    = 'لديك فاتورة بعملة مختلفة، قم بتحديد عملة جديدة';
+$lang['report_sales_from_date']                           = 'من تاريخ';
+$lang['report_sales_to_date']                             = 'لـ تاريخ';
+$lang['report_sales_months_all_time']                     = 'أي الوقت';
+$lang['report_sales_months_six_months']                   = 'آخر 6 شهور';
+$lang['report_sales_months_twelve_months']                = 'آخر 12 شهر';
+$lang['reports_sales_generated_report']                   = 'تقرير تم إصداره';
+$lang['reports_sales_dt_customers_client']                = 'العميل';
+$lang['reports_sales_dt_customers_total_invoices']        = 'إجمالي الفواتير';
 $lang['reports_sales_dt_items_customers_amount']          = 'الكمية';
-$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Amount with Tax';
+$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'المبلغ مع الضريبة';
 
 # Roles
-$lang['new_role']           = 'New Role';
-$lang['all_roles']          = 'All Role';
-$lang['roles']              = 'Staff Roles';
-$lang['role']               = 'Role';
-$lang['role_lowercase']     = 'role';
-$lang['roles_total_users']  = 'Total Users: ';
+$lang['new_role']           = 'صلاحية جديدة';
+$lang['all_roles']          = 'جميع الصلاحيات';
+$lang['roles']              = 'صلاحيات الفريق';
+$lang['role']               = 'الصلاحية';
+$lang['role_lowercase']     = 'صلاحية';
+$lang['roles_total_users']  = 'مجموع المستخدمين: ';
 $lang['roles_dt_name']      = 'Role Name';
 $lang['role_add_edit_name'] = 'Role Name';
 
 # Service
-$lang['new_service']           = 'New Service';
-$lang['services']              = 'Services';
+$lang['new_service']           = 'خدمة جديدة';
+$lang['services']              = 'الخدمات';
 $lang['service']               = 'الخدمة';
-$lang['service_lowercase']     = 'service';
-$lang['services_dt_name']      = 'Service Name';
-$lang['service_add_edit_name'] = 'Service Name';
+$lang['service_lowercase']     = 'خدمة';
+$lang['services_dt_name']      = 'اسم الخدمة';
+$lang['service_add_edit_name'] = 'اسم الخدمة';
 
 # Settings
-$lang['settings']                                                  = 'Settings';
-$lang['settings_updated']                                          = 'Settings Updated';
-$lang['settings_save']                                             = 'Save Settings';
-$lang['settings_group_general']                                    = 'General';
-$lang['settings_group_localization']                               = 'Localization';
+$lang['settings']                                                  = 'الإعدادات';
+$lang['settings_updated']                                          = 'تحديث الإعدادات';
+$lang['settings_save']                                             = 'حفظ الإعدادات';
+$lang['settings_group_general']                                    = 'عام';
+$lang['settings_group_localization']                               = 'تعريب';
 $lang['settings_group_tickets']                                    = 'تذاكر';
-$lang['settings_group_sales']                                      = 'Finance';
-$lang['settings_group_email']                                      = 'Email';
-$lang['settings_group_clients']                                    = 'Customers';
-$lang['settings_group_newsfeed']                                   = 'News feed';
+$lang['settings_group_sales']                                      = 'المالية';
+$lang['settings_group_email']                                      = 'الإيميل';
+$lang['settings_group_clients']                                    = 'العملاء';
+$lang['settings_group_newsfeed']                                   = 'آخر التحديثات';
 $lang['settings_group_cronjob']                                    = 'Cron Job';
-$lang['settings_yes']                                              = 'Yes';
-$lang['settings_no']                                               = 'No';
+$lang['settings_yes']                                              = 'نعم';
+$lang['settings_no']                                               = 'لا';
 $lang['settings_clients_default_theme']                            = 'Default customers theme';
-$lang['settings_clients_allow_registration']                       = 'Allow customers to register';
-$lang['settings_clients_allow_kb_view_without_registration']       = 'Allow knowledge base to be viewed without registration';
-$lang['settings_cron_send_overdue_reminder']                       = 'Send invoice overdue reminder';
+$lang['settings_clients_allow_registration']                       = 'السماح للعملاء بالتسجيل';
+$lang['settings_clients_allow_kb_view_without_registration']       = 'السماح بمشاهدة قاعدة المعارف بدون التسجيل';
+$lang['settings_cron_send_overdue_reminder']                       = 'ارسال تذكير بفاتوره متاخره';
 $lang['settings_cron_send_overdue_reminder_tooltip']               = 'Send overdue email to client when invoice status updated to overdue from Cron Job';
-$lang['automatically_send_invoice_overdue_reminder_after']         = 'Auto send reminder after (days)';
-$lang['automatically_resend_invoice_overdue_reminder_after']       = 'Auto re-send reminder after (days)';
+$lang['automatically_send_invoice_overdue_reminder_after']         = 'إرسال التذكير بشكل تلقائي بعد أيام';
+$lang['automatically_resend_invoice_overdue_reminder_after']       = 'اعاده ارسال التذكير تلقائيا بعد (ايام)';
 $lang['settings_email_host']                                       = 'SMTP Host';
 $lang['settings_email_port']                                       = 'SMTP Port';
-$lang['settings_email']                                            = 'Email';
-$lang['settings_email_password']                                   = 'SMTP Password';
+$lang['settings_email']                                            = 'الإيميل';
+$lang['settings_email_password']                                   = 'SMTP كلمة مرور الـ';
 $lang['settings_email_charset']                                    = 'Email Charset';
-$lang['settings_email_signature']                                  = 'Email Signature';
-$lang['settings_general_company_logo']                             = 'Company Logo';
-$lang['settings_general_company_logo_tooltip']                     = 'Recommended dimensions: 150 x 34px';
-$lang['settings_general_company_remove_logo_tooltip']              = 'Remove company logo';
-$lang['settings_general_company_name']                             = 'Company Name';
-$lang['settings_general_company_main_domain']                      = 'Company Main Domain';
-$lang['settings_general_use_knowledgebase']                        = 'Use Knowledge Base';
-$lang['settings_general_use_knowledgebase_tooltip']                = 'If you allow this options knowledge base will be shown also on clients side';
-$lang['settings_general_tables_limit']                             = 'Tables Pagination Limit';
-$lang['settings_general_default_staff_role']                       = 'Default Staff Role';
-$lang['settings_general_default_staff_role_tooltip']               = 'When you add new staff member this role will be selected by default';
+$lang['settings_email_signature']                                  = 'توقيع الإيميل';
+$lang['settings_general_company_logo']                             = 'شعار الشركة';
+$lang['settings_general_company_logo_tooltip']                     = 'الأبعاد الموصى بها: 150 x 34px';
+$lang['settings_general_company_remove_logo_tooltip']              = 'حذف شعار الشركة';
+$lang['settings_general_company_name']                             = 'اسم الشركة';
+$lang['settings_general_company_main_domain']                      = 'النطاق الرئيسي للشركة';
+$lang['settings_general_use_knowledgebase']                        = 'إستخدام قاعده المعارف';
+$lang['settings_general_use_knowledgebase_tooltip']                = 'إذا سمحت بهذه الخيارات سيتم عرض قاعدة المعارف للعملاء';
+$lang['settings_general_tables_limit']                             = 'حدود صفحات الجداول';
+$lang['settings_general_default_staff_role']                       = 'صلاحية الموظف الإفتراضية';
+$lang['settings_general_default_staff_role_tooltip']               = 'عند إضافة موظف جديد سيتم تحديد هذا الدور بشكل افتراضي';
 $lang['settings_localization_date_format']                         = 'Date Format';
-$lang['settings_localization_default_timezone']                    = 'Default Timezone';
+$lang['settings_localization_default_timezone']                    = 'المنطقة الزمنية الافتراضية';
 $lang['settings_localization_default_language']                    = 'اللغة الافتراضية';
-$lang['settings_newsfeed_max_file_upload_post']                    = 'Maximum files upload on post';
-$lang['settings_reminders_contracts']                              = 'Contract expiration reminder before';
-$lang['settings_reminders_contracts_tooltip']                      = 'Expiration reminder notification in days';
-$lang['settings_tickets_use_services']                             = 'Use services';
-$lang['settings_tickets_max_attachments']                          = 'Maximum ticket attachments';
-$lang['settings_tickets_allow_departments_access']                 = 'Allow staff to access only ticket that belongs to staff departments';
+$lang['settings_newsfeed_max_file_upload_post']                    = 'الحد الأعلى المسموح تحميله في المنشور';
+$lang['settings_reminders_contracts']                              = 'تذكير بانتهاء مده العقد قبل';
+$lang['settings_reminders_contracts_tooltip']                      = 'تذكير بانتهاء الصلاحية قبل أيام';
+$lang['settings_tickets_use_services']                             = 'استخدام الخدمات';
+$lang['settings_tickets_max_attachments']                          = 'الحد الأعلى للتذاكر المرفقة';
+$lang['settings_tickets_allow_departments_access']                 = 'السماح للموظفين بالوصول إلى التذكرة التي تخص قسم الموظفين فقط';
 $lang['settings_tickets_allowed_file_extensions']                  = 'Allowed attachments file extensions';
-$lang['settings_sales_general']                                    = 'General';
-$lang['settings_sales_general_note']                               = 'General settings';
+$lang['settings_sales_general']                                    = 'عام';
+$lang['settings_sales_general_note']                               = 'الإعدادات العامة';
 $lang['settings_sales_invoice_prefix']                             = 'Invoice Number Prefix';
 $lang['settings_sales_decimal_separator']                          = 'Decimal Separator';
 $lang['settings_sales_thousand_separator']                         = 'Thousand Separator';
-$lang['settings_sales_currency_placement']                         = 'Currency Placement';
-$lang['settings_sales_currency_placement_before']                  = 'Before Amount';
-$lang['settings_sales_currency_placement_after']                   = 'After Amount';
-$lang['settings_sales_require_client_logged_in_to_view_invoice']   = 'Require client to be logged in to view invoice';
-$lang['settings_sales_next_invoice_number']                        = 'Next Invoice Number';
+$lang['settings_sales_currency_placement']                         = 'وضع العملات';
+$lang['settings_sales_currency_placement_before']                  = 'قبل المبلغ';
+$lang['settings_sales_currency_placement_after']                   = 'بعد المبلغ';
+$lang['settings_sales_require_client_logged_in_to_view_invoice']   = 'طلب تسجيل دخول العميل لعرض الفاتورة';
+$lang['settings_sales_next_invoice_number']                        = 'رقم الفاتورة التالي';
 $lang['settings_sales_next_invoice_number_tooltip']                = 'Set this field to 1 if you want to start from beginning';
 $lang['settings_sales_decrement_invoice_number_on_delete']         = 'Decrement invoice number on delete';
 $lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Do you want to decrement the invoice number when the last invoice is deleted? eq. If is set this option to YES and before invoice delete the next invoice number is 15 the next invoice number will decrement to 14. If is set to NO the number will remain to 15.  If you have setup delete only on last invoice to NO you should set this option to NO too to keep the next invoice number not decremented.';
@@ -420,7 +420,7 @@ $lang['settings_sales_company_info_note']                          = 'These info
 $lang['settings_sales_company_name']                               = 'Company Name';
 $lang['settings_sales_address']                                    = 'العنوان';
 $lang['settings_sales_city']                                       = 'المدينة';
-$lang['settings_sales_country_code']                               = 'Country Code';
+$lang['settings_sales_country_code']                               = 'كود البلد';
 $lang['settings_sales_postal_code']                                = 'الرمز البريدي';
 $lang['settings_sales_phonenumber']                                = 'الهاتف';
 
@@ -429,122 +429,122 @@ $lang['new_lead']                          = 'New Lead';
 $lang['leads']                             = 'Leads';
 $lang['lead']                              = 'Lead';
 $lang['lead_lowercase']                    = 'lead';
-$lang['leads_all']                         = 'All';
-$lang['leads_canban_notes']                = 'Notes: %s';
-$lang['leads_canban_source']               = 'Source: %s';
-$lang['lead_new_source']                   = 'New Source';
-$lang['lead_sources']                      = 'Lead Sources';
-$lang['lead_source']                       = 'Lead Source';
-$lang['lead_source_lowercase']             = 'lead source';
-$lang['leads_sources_not_found']           = 'No leads sources found';
-$lang['leads_sources_table_name']          = 'Source Name';
-$lang['leads_source_add_edit_name']        = 'Source Name';
+$lang['leads_all']                         = 'الكل';
+$lang['leads_canban_notes']                = 'الملاحظات: %s';
+$lang['leads_canban_source']               = 'مصدر: %s';
+$lang['lead_new_source']                   = 'مصدر جديد';
+$lang['lead_sources']                      = 'المصادر الرئيسية';
+$lang['lead_source']                       = 'المصدر الرئيسي';
+$lang['lead_source_lowercase']             = 'مصدر رئيسي';
+$lang['leads_sources_not_found']           = 'لم يتم العثور على مصادر رئيسية';
+$lang['leads_sources_table_name']          = 'اسم المصادر';
+$lang['leads_source_add_edit_name']        = 'اسم المصدر';
 $lang['lead_new_status']                   = 'New Lead Status';
 $lang['lead_status']                       = 'Lead Status';
 $lang['lead_status_lowercase']             = 'lead status';
 $lang['leads_status_table_name']           = 'Status Name';
 $lang['leads_status_add_edit_name']        = 'Status Name';
-$lang['leads_status_add_edit_order']       = 'Order';
+$lang['leads_status_add_edit_order']       = 'طلب';
 $lang['lead_statuses_not_found']           = 'No leads statuses found';
 $lang['leads_search']                      = 'Search Leads';
 $lang['leads_table_total']                 = 'Total Leads: %s';
-$lang['leads_dt_name']                     = 'Name';
-$lang['leads_dt_email']                    = 'Email';
+$lang['leads_dt_name']                     = 'الإسم';
+$lang['leads_dt_email']                    = 'الإيميل';
 $lang['leads_dt_phonenumber']              = 'الهاتف';
-$lang['leads_dt_assigned']                 = 'Assigned';
+$lang['leads_dt_assigned']                 = 'تم تعيينه';
 $lang['leads_dt_status']                   = 'الحالة';
-$lang['leads_dt_last_contact']             = 'Last Contact';
-$lang['lead_add_edit_name']                = 'Name';
+$lang['leads_dt_last_contact']             = 'آخر جهة اتصال';
+$lang['lead_add_edit_name']                = 'الإسم';
 $lang['lead_add_edit_email']               = 'البريد الإلكتروني';
 $lang['lead_add_edit_phonenumber']         = 'الهاتف';
-$lang['lead_add_edit_source']              = 'Source';
+$lang['lead_add_edit_source']              = 'المصدر';
 $lang['lead_add_edit_status']              = 'الحالة';
 $lang['lead_add_edit_assigned']            = 'Assigned';
-$lang['lead_add_edit_datecontacted']       = 'Date Contacted';
-$lang['lead_add_edit_contacted_today']     = 'Contacted Today';
-$lang['lead_add_edit_activity']            = 'Activity Log';
-$lang['lead_add_edit_notes']               = 'Notes';
-$lang['lead_add_edit_add_note']            = 'Add Note';
-$lang['lead_not_contacted']                = 'I have not contacted this lead';
-$lang['lead_add_edit_contacted_this_lead'] = 'I got in touch with this lead';
+$lang['lead_add_edit_datecontacted']       = 'تاريخ التواصل';
+$lang['lead_add_edit_contacted_today']     = 'تم التواصل معه اليوم';
+$lang['lead_add_edit_activity']            = 'سجل النشاط';
+$lang['lead_add_edit_notes']               = 'ملاحظات';
+$lang['lead_add_edit_add_note']            = 'إضافة ملاحظة';
+$lang['lead_not_contacted']                = 'لم يتم التواصل مع هذا العميل';
+$lang['lead_add_edit_contacted_this_lead'] = 'تواصلت مع هذا العميل';
 
 # Misc
-$lang['access_denied'] = 'Access denied';
-$lang['prev']          = 'Prev';
-$lang['next']          = 'next';
+$lang['access_denied'] = 'رفض الوصول';
+$lang['prev']          = 'قبل';
+$lang['next']          = 'بعد';
 
 # Datatables
-$lang['dt_paginate_first']    = 'First';
-$lang['dt_paginate_last']     = 'Last';
-$lang['dt_paginate_next']     = 'Next';
-$lang['dt_paginate_previous'] = 'Previous';
+$lang['dt_paginate_first']    = 'الأول';
+$lang['dt_paginate_last']     = 'الأخير';
+$lang['dt_paginate_next']     = 'بعد';
+$lang['dt_paginate_previous'] = 'قبل';
 $lang['dt_search']            = 'البحث...';
-$lang['dt_zero_records']      = 'No matching records found';
-$lang['dt_loading_records']   = 'Loading...';
+$lang['dt_zero_records']      = 'لم يتم العثور على سجلات مطابقة';
+$lang['dt_loading_records']   = 'جاري التحميل...';
 $lang['dt_length_menu']       = 'Show _MENU_ entries';
 $lang['dt_info_filtered']     = '(filtered from _MAX_ total {0})';
 $lang['dt_info_empty']        = 'Showing 0 to 0 of 0 {0}';
 $lang['dt_info']              = 'Showing _START_ to _END_ of _TOTAL_ {0}';
 $lang['dt_empty_table']       = 'No {0} found';
-$lang['dt_sort_ascending']    = ' activate to sort column ascending';
-$lang['dt_sort_descending']   = ' activate to sort column descending';
+$lang['dt_sort_ascending']    = ' التفعيل لفرز الأعمدة بشكل تصاعدي';
+$lang['dt_sort_descending']   = ' التفعيل لفرز الأعمدة بشكل تصاعدي';
 
 # Invoice Activity Log
 $lang['user_sent_overdue_reminder'] = '%s sent invoice overdue reminder';
 
 # Weekdays
-$lang['wd_monday']    = 'Monday';
-$lang['wd_tuesday']   = 'Tuesday';
-$lang['wd_thursday']  = 'Thursday';
-$lang['wd_wednesday'] = 'Wednesday';
-$lang['wd_friday']    = 'Friday';
-$lang['wd_saturday']  = 'Saturday';
-$lang['wd_sunday']    = 'Sunday';
+$lang['wd_monday']    = 'الإثنين';
+$lang['wd_tuesday']   = 'الثلاثاء';
+$lang['wd_thursday']  = 'الخميس';
+$lang['wd_wednesday'] = 'الأربعاء';
+$lang['wd_friday']    = 'الجمعة';
+$lang['wd_saturday']  = 'السبت';
+$lang['wd_sunday']    = 'الأحد';
 
 # Admin Left Sidebar
 $lang['als_dashboard']             = 'Dashboard';
-$lang['als_clients']               = 'Customers';
+$lang['als_clients']               = 'العملاء';
 $lang['als_leads']                 = 'Leads';
 $lang['als_contracts']             = 'العقود';
-$lang['als_sales']                 = 'Sales';
-$lang['als_staff']                 = 'Staff';
-$lang['als_tasks']                 = 'Tasks';
-$lang['als_kb']                    = 'Knowledge Base';
-$lang['als_media']                 = 'Media';
-$lang['als_reports']               = 'Reports';
-$lang['als_reports_sales_submenu'] = 'Sales';
+$lang['als_sales']                 = 'المبيعات';
+$lang['als_staff']                 = 'الموظفين';
+$lang['als_tasks']                 = 'المهم';
+$lang['als_kb']                    = 'قاعدة المعرفة';
+$lang['als_media']                 = 'الوسائط';
+$lang['als_reports']               = 'التقارير';
+$lang['als_reports_sales_submenu'] = 'المبيعات';
 $lang['als_reports_leads_submenu'] = 'Leads';
 $lang['als_kb_articles_submenu']   = 'KB Articles';
-$lang['als_utilities']             = 'Utilities';
+$lang['als_utilities']             = 'الأدوات المساعدة';
 $lang['als_announcements_submenu'] = 'الإخطارات';
-$lang['als_calendar_submenu']      = 'Calendar';
-$lang['als_activity_log_submenu']  = 'Activity Log';
+$lang['als_calendar_submenu']      = 'الرزنامة';
+$lang['als_activity_log_submenu']  = 'سجل النشاط';
 
 # Admin Customizer Sidebar
-$lang['acs_ticket_priority_submenu']           = 'Ticket Priority';
-$lang['acs_ticket_statuses_submenu']           = 'Ticket Statuses';
-$lang['acs_ticket_predefined_replies_submenu'] = 'Predefined Replies';
-$lang['acs_ticket_services_submenu']           = 'Services';
-$lang['acs_departments']                       = 'Departments';
+$lang['acs_ticket_priority_submenu']           = 'أولوية التذكرة';
+$lang['acs_ticket_statuses_submenu']           = 'حالة التذكرة';
+$lang['acs_ticket_predefined_replies_submenu'] = 'الردود المعرفة مسبقا';
+$lang['acs_ticket_services_submenu']           = 'الخدمات';
+$lang['acs_departments']                       = 'الأقسام';
 $lang['acs_leads']                             = 'Leads';
-$lang['acs_leads_sources_submenu']             = 'Sources';
-$lang['acs_leads_statuses_submenu']            = 'Statuses';
-$lang['acs_sales_taxes_submenu']               = 'Tax Rates';
-$lang['acs_sales_currencies_submenu']          = 'Currencies';
-$lang['acs_sales_payment_modes_submenu']       = 'Payment Modes';
-$lang['acs_email_templates']                   = 'Email Templates';
-$lang['acs_roles']                             = 'Roles';
-$lang['acs_settings']                          = 'Settings';
+$lang['acs_leads_sources_submenu']             = 'المصادر';
+$lang['acs_leads_statuses_submenu']            = 'الحالات';
+$lang['acs_sales_taxes_submenu']               = 'معدلات الضريبة';
+$lang['acs_sales_currencies_submenu']          = 'العملات';
+$lang['acs_sales_payment_modes_submenu']       = 'حالات الدفع';
+$lang['acs_email_templates']                   = 'قوالب الإيميل';
+$lang['acs_roles']                             = 'الصلاحيات';
+$lang['acs_settings']                          = 'الإعدادات';
 
 # Tickets
-$lang['new_ticket']                                          = 'Open New Ticket';
-$lang['tickets']                                             = 'تذاكر';
-$lang['ticket']                                              = 'Ticket';
-$lang['ticket_lowercase']                                    = 'ticket';
+$lang['new_ticket']                                          = 'تذكرة جديدة';
+$lang['tickets']                                             = 'التذاكر';
+$lang['ticket']                                              = 'التذكرة';
+$lang['ticket_lowercase']                                    = 'تذكرة';
 $lang['support_tickets']                                     = 'تذاكر الدعم الفني';
-$lang['support_ticket']                                      = 'Support Ticket';
-$lang['ticket_settings_to']                                  = 'Name';
-$lang['ticket_settings_email']                               = 'Email address';
+$lang['support_ticket']                                      = 'تذكرة الدعم الفني';
+$lang['ticket_settings_to']                                  = 'الإسم';
+$lang['ticket_settings_email']                               = 'الإيميل';
 $lang['ticket_settings_departments']                         = 'القسم';
 $lang['ticket_settings_service']                             = 'الخدمة';
 $lang['ticket_settings_priority']                            = 'الأولوية';
@@ -552,11 +552,11 @@ $lang['ticket_settings_subject']                             = 'الموضوع';
 $lang['ticket_settings_assign_to']                           = 'Assign ticket (default is current user)';
 $lang['ticket_add_body']                                     = 'نص التذكرة';
 $lang['ticket_add_attachments']                              = 'المرفقات';
-$lang['ticket_no_reply_yet']                                 = 'No Reply Yet';
-$lang['new_ticket_added_successfully']                       = 'Ticket #%s added successfully';
-$lang['replied_to_ticket_successfully']                      = 'Replied to ticket #%s successfully';
-$lang['ticket_settings_updated_successfully']                = 'Ticket settings updated successfully';
-$lang['ticket_settings_updated_successfully_and_reassigned'] = 'Ticket settings updated successfully - reassigned to department %s';
+$lang['ticket_no_reply_yet']                                 = 'لم يرد بعد';
+$lang['new_ticket_added_successfully']                       = 'تم إضافة التذكرة #%s بنجاح';
+$lang['replied_to_ticket_successfully']                      = 'تم الرد على التذكرة #%s بنجاح';
+$lang['ticket_settings_updated_successfully']                = 'تم تحديث إعدادات التذكرة بنجاح';
+$lang['ticket_settings_updated_successfully_and_reassigned'] = 'تم تحديث إعدادات التذكرة بنجاح- وأعيد تعيينها في قسم %s ';
 $lang['ticket_dt_subject']                                   = 'الموضوع';
 $lang['ticket_dt_department']                                = 'القسم';
 $lang['ticket_dt_service']                                   = 'الخدمة';
@@ -564,111 +564,111 @@ $lang['ticket_dt_submitter']                                 = 'جهة الات�
 $lang['ticket_dt_status']                                    = 'الحالة';
 $lang['ticket_dt_priority']                                  = 'الأولوية';
 $lang['ticket_dt_last_reply']                                = 'آخر رد';
-$lang['ticket_single_add_reply']                             = 'Add Reply';
-$lang['ticket_single_add_note']                              = 'Add Note';
-$lang['ticket_single_other_user_tickets']                    = 'Other Tickets';
-$lang['ticket_single_settings']                              = 'Settings';
-$lang['ticket_single_priority']                              = 'Priority: %s';
-$lang['ticket_single_last_reply']                            = 'Last Reply: %s';
+$lang['ticket_single_add_reply']                             = 'إضافة رد';
+$lang['ticket_single_add_note']                              = 'إضافة ملاحظة';
+$lang['ticket_single_other_user_tickets']                    = 'تذاكر آخرى';
+$lang['ticket_single_settings']                              = 'الإعدادات';
+$lang['ticket_single_priority']                              = 'الأولوية: %s';
+$lang['ticket_single_last_reply']                            = 'أخر رد: %s';
 $lang['ticket_single_ticket_note_by']                        = 'Ticket note by %s';
-$lang['ticket_single_note_added']                            = 'Note added: %s';
-$lang['ticket_single_change_status']                         = 'Change Status';
-$lang['ticket_single_assign_to_me_on_update']                = 'Assign this ticket to me automatically';
-$lang['ticket_single_insert_predefined_reply']               = 'Insert predefined reply';
-$lang['ticket_single_insert_knowledge_base_link']            = 'Insert knowledge base link';
+$lang['ticket_single_note_added']                            = 'تمت إضافة ملاحظة: %s';
+$lang['ticket_single_change_status']                         = 'تغيير الحالة';
+$lang['ticket_single_assign_to_me_on_update']                = 'تعيين هذه التذكرة لي بشكل تلقائي';
+$lang['ticket_single_insert_predefined_reply']               = 'ادراج رد معرف مسبقا';
+$lang['ticket_single_insert_knowledge_base_link']            = 'إدراج رابط قاعدة المعرفة';
 $lang['ticket_single_attachments']                           = 'المرفقات';
-$lang['ticket_single_add_response']                          = 'Add Response';
-$lang['ticket_single_note_heading']                          = 'Note';
-$lang['ticket_single_add_note']                              = 'Add Note';
+$lang['ticket_single_add_response']                          = 'إضافة إستجابة';
+$lang['ticket_single_note_heading']                          = 'ملاحظة';
+$lang['ticket_single_add_note']                              = 'إضافة ملاحظة';
 $lang['ticket_settings_none_assigned']                       = 'None';
-$lang['ticket_status_changed_successfully']                  = 'Ticket Status Changed';
-$lang['ticket_status_changed_fail']                          = 'Problem Changing Ticket Status';
-$lang['ticket_staff_string']                                 = 'Staff';
-$lang['ticket_client_string']                                = 'Customer';
-$lang['ticket_posted']                                       = 'Posted: %s';
-$lang['ticket_access_by_department_denied']                  = 'You do not have access to this ticket. This ticket belongs to department that you are not assigned.';
+$lang['ticket_status_changed_successfully']                  = 'تغيير حالة التذكرة';
+$lang['ticket_status_changed_fail']                          = 'خطأ في تغيير حالة التذكرة';
+$lang['ticket_staff_string']                                 = 'الموظفين';
+$lang['ticket_client_string']                                = 'العميل';
+$lang['ticket_posted']                                       = 'تم النشر: %s';
+$lang['ticket_access_by_department_denied']                  = 'لا يمكنك الوصول لهذه التذكرة.';
 
 # Staff
-$lang['new_staff']                                     = 'New Staff Member';
+$lang['new_staff']                                     = 'موظف جديد';
 $lang['staff_members']                                 = 'Staff Members';
 $lang['staff_member']                                  = 'Staff Member';
 $lang['staff_member_lowercase']                        = 'staff member';
-$lang['staff_profile_updated']                         = 'Your Profile has Been Updated';
-$lang['staff_old_password_incorrect']                  = 'Your old password is incorrect';
-$lang['staff_password_changed']                        = 'Your password has been changed';
-$lang['staff_problem_changing_password']               = 'Problem changing your password';
+$lang['staff_profile_updated']                         = 'تم تحديث ملفك الشخصي';
+$lang['staff_old_password_incorrect']                  = 'كلمة السر القديمة غير صحيحة';
+$lang['staff_password_changed']                        = 'تم تغيير كلمة المرور الخاصة بك';
+$lang['staff_problem_changing_password']               = 'حدثت مشكله اثناء تغيير كلمه المرور';
 $lang['staff_profile_string']                          = 'الملف الشخصي';
 $lang['staff_cant_remove_main_admin']                  = 'Cant remove main administrator';
 $lang['staff_cant_remove_yourself_from_admin']         = 'You cant remove yourself the administrator role';
-$lang['staff_dt_name']                                 = 'Full Name';
-$lang['staff_dt_email']                                = 'Email';
-$lang['staff_dt_last_Login']                           = 'Last Login';
-$lang['staff_dt_active']                               = 'Active';
+$lang['staff_dt_name']                                 = 'الإسم كامل';
+$lang['staff_dt_email']                                = 'الإيميل';
+$lang['staff_dt_last_Login']                           = 'آخر تسجيل دخول';
+$lang['staff_dt_active']                               = 'نشط';
 $lang['staff_add_edit_firstname']                      = 'الاسم الأول';
 $lang['staff_add_edit_lastname']                       = 'اسم العائلة';
-$lang['staff_add_edit_email']                          = 'Email';
+$lang['staff_add_edit_email']                          = 'الإيميل';
 $lang['staff_add_edit_phonenumber']                    = 'الهاتف';
 $lang['staff_add_edit_facebook']                       = 'Facebook';
 $lang['staff_add_edit_linkedin']                       = 'LinkedIn';
 $lang['staff_add_edit_skype']                          = 'Skype';
-$lang['staff_add_edit_departments']                    = 'Member departments';
-$lang['staff_add_edit_role']                           = 'Role';
-$lang['staff_add_edit_permissions']                    = 'Permissions';
-$lang['staff_add_edit_administrator']                  = 'Administrator';
-$lang['staff_add_edit_password']                       = 'Password';
-$lang['staff_add_edit_password_note']                  = 'Note: if you populate this field, password will be changed on this member.';
-$lang['staff_add_edit_password_last_changed']          = 'Password last changed';
-$lang['staff_add_edit_notes']                          = 'Notes';
-$lang['staff_add_edit_note_description']               = 'Note description';
-$lang['staff_notes_table_description_heading']         = 'Note';
-$lang['staff_notes_table_addedfrom_heading']           = 'Added From';
-$lang['staff_notes_table_dateadded_heading']           = 'Date Added';
-$lang['staff_admin_profile']                           = 'This is admin profile';
-$lang['staff_profile_notifications']                   = 'Notifications';
-$lang['staff_profile_departments']                     = 'Departments';
-$lang['staff_edit_profile_image']                      = 'Profile Image';
-$lang['staff_edit_profile_your_departments']           = 'Departments';
-$lang['staff_edit_profile_change_your_password']       = 'Change your password';
-$lang['staff_edit_profile_change_old_password']        = 'Old password';
-$lang['staff_edit_profile_change_new_password']        = 'New password';
-$lang['staff_edit_profile_change_repeat_new_password'] = 'Repeat new password';
+$lang['staff_add_edit_departments']                    = 'أقسام الأعضاء';
+$lang['staff_add_edit_role']                           = 'الصلاحيات';
+$lang['staff_add_edit_permissions']                    = 'الأوذونات';
+$lang['staff_add_edit_administrator']                  = 'المسؤول';
+$lang['staff_add_edit_password']                       = 'كلمة السر';
+$lang['staff_add_edit_password_note']                  = 'ملاحظة: إذا قمت بملء هذا الحقل، سيتم تغيير كلمه المرور هذه العضوية.';
+$lang['staff_add_edit_password_last_changed']          = 'آخر تغيير لكلمة المرور';
+$lang['staff_add_edit_notes']                          = 'الملاحظات';
+$lang['staff_add_edit_note_description']               = 'وصف الملاحظة';
+$lang['staff_notes_table_description_heading']         = 'الملاحظة';
+$lang['staff_notes_table_addedfrom_heading']           = 'تمت الاضافه من';
+$lang['staff_notes_table_dateadded_heading']           = 'تاريخ الإضافة';
+$lang['staff_admin_profile']                           = 'الملف الشخصي للمسؤول';
+$lang['staff_profile_notifications']                   = 'الإشعارات';
+$lang['staff_profile_departments']                     = 'الأقسام';
+$lang['staff_edit_profile_image']                      = 'الصورة الشخصية';
+$lang['staff_edit_profile_your_departments']           = 'الأقسام';
+$lang['staff_edit_profile_change_your_password']       = 'تغيير كلمة السر';
+$lang['staff_edit_profile_change_old_password']        = 'كلمة السر القديمة';
+$lang['staff_edit_profile_change_new_password']        = 'كلمة السر الجديدة';
+$lang['staff_edit_profile_change_repeat_new_password'] = 'تكرار كلمه المرور الجديدة';
 
 # Staff Tasks
-$lang['new_task']                           = 'New Task';
-$lang['tasks']                              = 'Tasks';
-$lang['task']                               = 'مهمة';
-$lang['task_lowercase']                     = 'task';
-$lang['comment_string']                     = 'Comment';
-$lang['task_marked_as_complete']            = 'Task marked as complete';
-$lang['task_follower_removed']              = 'Task follower removed successfully';
+$lang['new_task']                           = 'مهمة جديدة';
+$lang['tasks']                              = 'المهام';
+$lang['task']                               = 'المهمة';
+$lang['task_lowercase']                     = 'مهمة';
+$lang['comment_string']                     = 'تعليق';
+$lang['task_marked_as_complete']            = 'المهمة مكتملة';
+$lang['task_follower_removed']              = 'تمت إزاله متابع المهمه بنجاح';
 $lang['task_assignee_removed']              = 'Task assignee removed successfully';
 $lang['task_no_assignees']                  = 'No assignees for this task';
-$lang['task_no_followers']                  = 'No followers for this task';
-$lang['task_list_all']                      = 'All';
-$lang['task_list_not_assigned']             = 'Not Assigned';
+$lang['task_no_followers']                  = 'لا يوجد متابعين لهذه المهمة';
+$lang['task_list_all']                      = 'الكل';
+$lang['task_list_not_assigned']             = 'غير محدد';
 $lang['task_list_duedate_passed']           = 'Due Date Passed';
-$lang['tasks_dt_name']                      = 'Name';
+$lang['tasks_dt_name']                      = 'الإسم';
 $lang['task_single_priority']               = 'الأولوية';
 $lang['task_single_start_date']             = 'تاريخ البدء';
 $lang['task_single_due_date']               = 'تاريخ الاستحقاق';
-$lang['task_single_finished']               = 'Finished';
-$lang['task_single_mark_as_complete']       = 'Mark as complete';
-$lang['task_single_edit']                   = 'Edit';
-$lang['task_single_delete']                 = 'Delete';
+$lang['task_single_finished']               = 'انتهى';
+$lang['task_single_mark_as_complete']       = 'وضع علامه كمكتمل';
+$lang['task_single_edit']                   = 'تعديل';
+$lang['task_single_delete']                 = 'حذف';
 $lang['task_single_assignees']              = 'Assignees';
 $lang['task_single_assignees_select_title'] = 'Assign task to';
 $lang['task_single_followers']              = 'Followers';
-$lang['task_single_followers_select_title'] = 'Add Followers';
-$lang['task_single_add_new_comment']        = 'Add Comment';
+$lang['task_single_followers_select_title'] = 'إضافة متابعين';
+$lang['task_single_add_new_comment']        = 'إضافة تعليق';
 $lang['task_add_edit_subject']              = 'الموضوع';
 $lang['task_add_edit_priority']             = 'الأولوية';
 $lang['task_priority_low']                  = 'منخفضة';
 $lang['task_priority_medium']               = 'متوسطة';
 $lang['task_priority_high']                 = 'مرتفعة';
-$lang['task_priority_urgent']               = 'Urgent';
+$lang['task_priority_urgent']               = 'عاجل';
 $lang['task_add_edit_start_date']           = 'تاريخ البدء';
 $lang['task_add_edit_due_date']             = 'تاريخ الاستحقاق';
-$lang['task_add_edit_description']          = 'Task Description';
+$lang['task_add_edit_description']          = 'وصف المهمة';
 
 # Taxes
 $lang['new_tax']           = 'New Tax';
@@ -708,27 +708,27 @@ $lang['unfinished_todos_title']    = 'Unfinished to do\'s';
 $lang['finished_todos_title']      = 'Latest finished to do\'s';
 
 # Utilities
-$lang['utility_activity_log']                        = 'Activity Log';
-$lang['utility_activity_log_filter_by_date']         = 'Filter by date';
-$lang['utility_activity_log_dt_description']         = 'Description';
+$lang['utility_activity_log']                        = 'سحل النشاط';
+$lang['utility_activity_log_filter_by_date']         = 'تصفية حسب التاريخ';
+$lang['utility_activity_log_dt_description']         = 'الوصف';
 $lang['utility_activity_log_dt_date']                = 'التاريخ';
-$lang['utility_activity_log_dt_staff']               = 'Staff';
-$lang['utility_calendar_new_event_title']            = 'Add new event';
+$lang['utility_activity_log_dt_staff']               = 'الموظفين';
+$lang['utility_calendar_new_event_title']            = 'إضافة فعالية جديدة';
 $lang['utility_calendar_new_event_start_date']       = 'تاريخ البدء';
 $lang['utility_calendar_new_event_end_date']         = 'تاريخ الانتهاء';
-$lang['utility_calendar_new_event_make_public']      = 'Public Event';
-$lang['utility_calendar_event_added_successfully']   = 'New event added successfully';
-$lang['utility_calendar_event_deleted_successfully'] = 'Event deleted';
-$lang['utility_calendar_new_event_placeholder']      = 'Event title';
+$lang['utility_calendar_new_event_make_public']      = 'فعالية عامة';
+$lang['utility_calendar_event_added_successfully']   = 'تم إضافة الفعالية الجديدة بنجاح';
+$lang['utility_calendar_event_deleted_successfully'] = 'تم حذف الفعالية بنجاح';
+$lang['utility_calendar_new_event_placeholder']      = 'عنوان الفعالية';
 
 # Navigation
-$lang['nav_notifications']          = 'Notifications';
-$lang['nav_my_profile']             = 'My Profile';
-$lang['nav_edit_profile']           = 'Edit Profile';
-$lang['nav_logout']                 = 'Logout';
-$lang['nav_no_notifications']       = 'No notifications found';
-$lang['nav_view_all_notifications'] = 'View all notifications';
-$lang['nav_notifications_tooltip']  = 'View Notifications';
+$lang['nav_notifications']          = 'الإشعارات';
+$lang['nav_my_profile']             = 'ملفي الشخصي';
+$lang['nav_edit_profile']           = 'تعديل ملفي الشخصي';
+$lang['nav_logout']                 = 'خروج';
+$lang['nav_no_notifications']       = 'لا يوجد إشعارات';
+$lang['nav_view_all_notifications'] = 'مشاهدة جميع الإشعارات';
+$lang['nav_notifications_tooltip']  = 'مشاهدة الإشعارات';
 
 # Footer
 $lang['clients_copyright'] = 'جميع الحقوق محفوظة - واو ستوديو';
@@ -741,10 +741,10 @@ $lang['clients_contracts_dt_end_date']   = 'تاريخ الانتهاء';
 
 # Home
 $lang['clients_quick_invoice_info']           = 'ملخص الفواتير';
-$lang['clients_home_currency_select_tooltip'] = 'You need to select currency because you have invoices with different currency';
+$lang['clients_home_currency_select_tooltip'] = 'عليك تحديد عملة مختلفة';
 
 # Invoices
-$lang['clients_invoice_html_btn_download'] = 'Download';
+$lang['clients_invoice_html_btn_download'] = 'تنزيل';
 $lang['clients_my_invoices']               = 'الفواتير';
 $lang['clients_invoice_dt_number']         = 'رقم الفاتورة';
 $lang['clients_invoice_dt_date']           = 'التاريخ';
@@ -760,7 +760,7 @@ $lang['clients_firstname'] = 'الاسم الأول';
 $lang['clients_lastname']  = 'اسم العائلة';
 $lang['clients_email']     = 'البريد الإلكتروني';
 $lang['clients_company']   = 'المؤسسة';
-$lang['clients_vat']       = 'VAT Number';
+$lang['clients_vat']       = 'رقم ضريبة القيمة المضافة';
 $lang['clients_phone']     = 'الهاتف';
 $lang['clients_country']   = 'الدولة';
 $lang['clients_city']      = 'المدينة';
@@ -769,7 +769,7 @@ $lang['clients_zip']       = 'الرمز البريدي';
 $lang['clients_state']     = 'الولاية';
 # Used for edit profile and register END
 
-$lang['clients_register_password']                    = 'Password';
+$lang['clients_register_password']                    = 'كلمة السر';
 $lang['clients_register_password_repeat']             = 'إعادة كلمة المرور';
 $lang['clients_edit_profile_update_btn']              = 'تحديث';
 $lang['clients_edit_profile_change_password_heading'] = 'تغيير كلمة المرور';
@@ -777,7 +777,7 @@ $lang['clients_edit_profile_old_password']            = 'كلمة المرور �
 $lang['clients_edit_profile_new_password']            = 'كلمة المرور الجديدة';
 $lang['clients_edit_profile_new_password_repeat']     = 'إعادة كلمة المرور';
 $lang['clients_edit_profile_change_password_btn']     = 'تغيير كلمة المرور';
-$lang['clients_profile_last_changed_password']        = 'Password last changed %s';
+$lang['clients_profile_last_changed_password']        = 'آخر تغيير لكلمة المرور %s';
 
 # Knowledge base
 $lang['clients_knowledge_base']                    = 'قاعدة المعرفة';
@@ -785,7 +785,7 @@ $lang['clients_knowledge_base_articles_not_found'] = 'لا يوجد أي مقا�
 $lang['clients_knowledge_base_find_useful']        = 'هل استفدت من هذا المقال؟';
 $lang['clients_knowledge_base_find_useful_yes']    = 'نعم';
 $lang['clients_knowledge_base_find_useful_no']     = 'لا';
-$lang['clients_article_only_1_vote_today']         = 'You can vote once in 24 hours';
+$lang['clients_article_only_1_vote_today']         = 'بإمكانك التصويت لمرة واحدة خلال 24 ساعة';
 $lang['clients_article_voted_thanks_for_feedback'] = 'شكرا على تقييمك';
 
 # Tickets
@@ -796,21 +796,21 @@ $lang['clients_ticket_open_service']               = 'الخدمة';
 $lang['clients_ticket_open_priority']              = 'الأولوية';
 $lang['clients_ticket_open_body']                  = 'نص التذكرة';
 $lang['clients_ticket_attachments']                = 'المرفقات';
-$lang['clients_single_ticket_string']              = 'Ticket';
-$lang['clients_single_ticket_replied']             = 'Replied: %s';
-$lang['clients_single_ticket_information_heading'] = 'Ticket Information';
+$lang['clients_single_ticket_string']              = 'تذكرة';
+$lang['clients_single_ticket_replied']             = 'تم الرد عليه: %s';
+$lang['clients_single_ticket_information_heading'] = 'معلومات التذكرة';
 $lang['clients_tickets_dt_number']                 = 'رقم التذكرة';
 $lang['clients_tickets_dt_subject']                = 'الموضوع';
 $lang['clients_tickets_dt_department']             = 'القسم';
 $lang['clients_tickets_dt_service']                = 'الخدمة';
 $lang['clients_tickets_dt_status']                 = 'الحالة';
 $lang['clients_tickets_dt_last_reply']             = 'آخر رد';
-$lang['clients_ticket_single_department']          = 'Department: %s';
+$lang['clients_ticket_single_department']          = 'قسم: %s';
 $lang['clients_ticket_single_submitted']           = 'Submitted: %s';
-$lang['clients_ticket_single_status']              = 'Status:';
-$lang['clients_ticket_single_priority']            = 'Priority: %s';
-$lang['clients_ticket_single_add_reply_btn']       = 'Add Reply';
-$lang['clients_ticket_single_add_reply_heading']   = 'Add reply to this ticket';
+$lang['clients_ticket_single_status']              = 'الحالة:';
+$lang['clients_ticket_single_priority']            = 'الأولوية: %s';
+$lang['clients_ticket_single_add_reply_btn']       = 'إضافة رد';
+$lang['clients_ticket_single_add_reply_heading']   = 'إضافة رد لهذه التذكرة';
 
 # Login
 $lang['clients_login_heading_no_register'] = 'أضف بياناتك لتسجيل الدخول';
@@ -834,58 +834,58 @@ $lang['clients_nav_profile']   = 'الملف الشخصي';
 $lang['clients_nav_logout']    = 'تسجيل الخروج';
 
 # Version 1.0.1
-$lang['payment_receipt']                               = 'Payment Receipt';
-$lang['payment_for_string']                            = 'Payment For';
-$lang['payment_date']                                  = 'Payment Date:';
-$lang['payment_view_mode']                             = 'Payment Mode:';
-$lang['payment_total_amount']                          = 'Total Amount';
-$lang['payment_table_invoice_number']                  = 'Invoice Number';
-$lang['payment_table_invoice_date']                    = 'Invoice Date';
-$lang['payment_table_invoice_amount_total']            = 'Invoice Amount';
-$lang['payment_table_payment_amount_total']            = 'Payment Amount';
-$lang['payments_table_transaction_id']                 = 'Transaction ID: %s';
+$lang['payment_receipt']                               = 'وصل الدفع';
+$lang['payment_for_string']                            = 'الدفع لحساب';
+$lang['payment_date']                                  = 'تاريخ الدفع:';
+$lang['payment_view_mode']                             = 'حالة الدفع:';
+$lang['payment_total_amount']                          = 'المبلغ الإجمالي';
+$lang['payment_table_invoice_number']                  = 'رقم الفاتورة';
+$lang['payment_table_invoice_date']                    = 'تاريخ الفاتورة';
+$lang['payment_table_invoice_amount_total']            = 'مبلغ الفاتورة';
+$lang['payment_table_payment_amount_total']            = 'مبلغ الدفع';
+$lang['payments_table_transaction_id']                 = 'رقم التحويل: %s';
 $lang['payment_getaway_token_not_found']               = 'Token Not Found';
-$lang['online_payment_recorded_success']               = 'Payment recorded successfully';
-$lang['online_payment_recorded_success_fail_database'] = 'Payment is successful but failed to insert payment to database, contact administrator';
+$lang['online_payment_recorded_success']               = 'تم تسجيل عملية الدفع بنجاح';
+$lang['online_payment_recorded_success_fail_database'] = 'تم الدفع بنجاح، ولكن هناك خطأ في إدراج الدفعة في قاعدج البيانات، تواصل مع المسؤول';
 
 # Leads
-$lang['lead_convert_to_client']                = 'Convert to customer';
-$lang['lead_convert_to_email']                 = 'Email';
+$lang['lead_convert_to_client']                = 'التصفح كعميل';
+$lang['lead_convert_to_email']                 = 'الإيميل';
 $lang['lead_convert_to_client_firstname']      = 'الاسم الأول';
 $lang['lead_convert_to_client_lastname']       = 'اسم العائلة';
 $lang['lead_email_already_exists']             = 'Lead email already exists in customers data';
 $lang['lead_to_client_base_converted_success'] = 'Lead converted to customer successfully';
 $lang['lead_have_client_profile']              = 'This lead have customer profile.';
-$lang['lead_converted_edit_client_profile']    = 'Edit Profile';
+$lang['lead_converted_edit_client_profile']    = 'تعديل الملف الشخصي';
 
 # Invoices
-$lang['view_invoice_as_customer_tooltip']                                     = 'View invoice as customer';
+$lang['view_invoice_as_customer_tooltip']                                     = 'مشاهدة الفاتورة كعميل';
 $lang['invoice_add_edit_recurring']                                           = 'Recurring Invoice?';
-$lang['invoice_add_edit_recurring_no']                                        = 'No';
-$lang['invoice_add_edit_recurring_month']                                     = 'Every %s month';
-$lang['invoice_add_edit_recurring_months']                                    = 'Every %s months';
-$lang['invoices_list_all']                                                    = 'All';
-$lang['invoices_list_not_have_payment']                                       = 'Invoices with no payment records';
-$lang['invoices_list_recurring']                                              = 'Recurring Invoices';
-$lang['invoices_list_made_payment_by']                                        = 'Made Payment by %s';
-$lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'Create new invoice from recurring invoice only if the invoice is with status paid?';
-$lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'If this field is set to YES and the recurring invoices is not with status PAID, the new invoice will NOT be created.';
-$lang['view_invoice_pdf_link_pay']                                            = 'Pay Invoice';
+$lang['invoice_add_edit_recurring_no']                                        = 'لا';
+$lang['invoice_add_edit_recurring_month']                                     = 'كل %s شهر';
+$lang['invoice_add_edit_recurring_months']                                    = 'كل %s شهور';
+$lang['invoices_list_all']                                                    = 'الكل';
+$lang['invoices_list_not_have_payment']                                       = 'الفاتورة بدون عملية الدفع';
+$lang['invoices_list_recurring']                                              = 'الفواتير المكررة';
+$lang['invoices_list_made_payment_by']                                        = 'تم الدفع بواسطة %s ';
+$lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'هل تريد إنشاء فاتورة جديدة من فواتيرك المكررةإذا كانت الفاتوره بالحاله مدفوعه؟';
+$lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'إذا تم تعيين هذا الحقل بـ "نعم" ولم تكن الفواتير المكرره بنفس "الحاله التي تم دفعها"، فلن يتم انشاء الفاتورة الجديدة.';
+$lang['view_invoice_pdf_link_pay']                                            = 'دفع الفاتورة';
 
 # Payment modes
-$lang['payment_mode_add_edit_description']         = 'Bank Accounts / Description';
-$lang['payment_mode_add_edit_description_tooltip'] = 'You can set here bank accounts information. Will be shown on HTML Invoice';
-$lang['payment_modes_dt_description']              = 'Bank Accounts / Description';
+$lang['payment_mode_add_edit_description']         = 'حساب البنك/ الوصف';
+$lang['payment_mode_add_edit_description_tooltip'] = 'بإمكانك إضافة معلومات حسابك البنكي. سوف تظهر في HTML الفاتورة';
+$lang['payment_modes_dt_description']              = 'حسابات البنك/ الوصف';
 $lang['payment_modes_add_edit_announcement']       = 'Note: Payment modes listed below are offline modes. Payment gateways can be configured in Setup-> Settings->Payment Gateways';
-$lang['payment_mode_add_edit_active']              = 'Active';
-$lang['payment_modes_dt_active']                   = 'Active';
+$lang['payment_mode_add_edit_active']              = 'نشط';
+$lang['payment_modes_dt_active']                   = 'نشط';
 
 # Contracts
-$lang['contract_not_found'] = 'Contract not found. Maybe is deleted, check activity log';
+$lang['contract_not_found'] = 'لم يتم العثور على العقد. ربما تم حذفه تحقق من سجل النشاط';
 
 # Settings
 $lang['setting_bar_heading']                               = 'Setup';
-$lang['settings_group_online_payment_modes']               = 'Payment Gateways';
+$lang['settings_group_online_payment_modes']               = 'بوابات الدفع';
 $lang['settings_paymentmethod_mode_label']                 = 'Label';
 $lang['settings_paymentmethod_active']                     = 'Active';
 $lang['settings_paymentmethod_currencies']                 = 'Currencies (coma separated)';
@@ -901,45 +901,45 @@ $lang['settings_limit_top_search_bar_results']             = 'Limit Top Search B
 $lang['client_phonenumber'] = 'الهاتف';
 
 # Main Clients
-$lang['clients_register']                          = 'Register';
+$lang['clients_register']                          = 'التسجيل';
 $lang['clients_profile_updated']                   = 'تم تحديث الملف الشخصي بنجاح';
-$lang['clients_successfully_registered']           = 'Thank your for registering';
+$lang['clients_successfully_registered']           = 'شكرا لك على التسجيل';
 $lang['clients_account_created_but_not_logged_in'] = 'Your account has been created but you are not logged in our system automatically. Please try to login';
 
 # Tickets
 $lang['clients_tickets_heading'] = 'تذاكر الدعم الفني';
 
 # Payments
-$lang['payment_for_invoice'] = 'Payment for Invoice';
-$lang['payment_total']       = 'Total: %s';
+$lang['payment_for_invoice'] = 'الدفع للفاتورة';
+$lang['payment_total']       = 'المجموع: %s';
 
 # Invoice
-$lang['invoice_html_online_payment']             = 'Online Payment';
-$lang['invoice_html_online_payment_button_text'] = 'Pay Now';
-$lang['invoice_html_payment_modes_not_selected'] = 'Please Select Payment Mode';
+$lang['invoice_html_online_payment']             = 'الدفع أونلاين';
+$lang['invoice_html_online_payment_button_text'] = 'الدفع الآن';
+$lang['invoice_html_payment_modes_not_selected'] = 'يرجى تحديد وضع الدفع';
 $lang['invoice_html_amount_blank']               = 'Total amount cant be blank or zero';
 $lang['invoice_html_offline_payment']            = 'Offline Payment';
 $lang['invoice_html_amount']                     = 'الكمية';
 # Version 1.0.2
 # DataTables
 $lang['dt_button_column_visibility'] = 'Visibility';
-$lang['dt_button_reload']            = 'Reload';
+$lang['dt_button_reload']            = 'تحديث';
 $lang['dt_button_excel']             = 'Excel';
 $lang['dt_button_csv']               = 'CSV';
 $lang['dt_button_pdf']               = 'PDF';
 $lang['dt_button_print']             = 'طباعة';
-$lang['is_not_active_export']        = 'No';
-$lang['is_active_export']            = 'Yes';
+$lang['is_not_active_export']        = 'لا';
+$lang['is_active_export']            = 'نعم';
 
 # Invoice
-$lang['invoice_add_edit_advanced_options']                = 'Advanced Options';
-$lang['invoice_add_edit_allowed_payment_modes']           = 'Allowed payment modes for this invoice';
-$lang['invoice_add_edit_recurring_invoices_from_invoice'] = 'Created invoices from this recurring invoice';
-$lang['invoice_add_edit_no_payment_modes_found']          = 'No payment modes found.';
-$lang['invoice_html_total_pay']                           = 'Total: %s';
+$lang['invoice_add_edit_advanced_options']                = 'خيارات متقدمة';
+$lang['invoice_add_edit_allowed_payment_modes']           = 'صيغ الدفع المسموح بها لهذه الفاتوره';
+$lang['invoice_add_edit_recurring_invoices_from_invoice'] = 'انشاء الفواتير من هذه الفاتوره المكرره';
+$lang['invoice_add_edit_no_payment_modes_found']          = 'لم يتم العثور على أوضاع الدفع.';
+$lang['invoice_html_total_pay']                           = 'المجموع: %s';
 
 # Email templates
-$lang['email_templates_table_heading_name'] = 'Template Name';
+$lang['email_templates_table_heading_name'] = 'اسم القالب';
 
 # General
 $lang['discount_type']            = 'Discount Type';
@@ -1038,58 +1038,58 @@ $lang['view_estimate']                            = 'View estimate';
 $lang['estimate_sent_to_client_success']          = 'The estimate is sent successfully to the client';
 $lang['estimate_sent_to_client_fail']             = 'Problem while sending the estimate';
 $lang['estimate_view']                            = 'View estimate';
-$lang['estimate_select_customer']                 = 'Customer';
-$lang['estimate_add_edit_number']                 = 'Estimate Number';
-$lang['estimate_add_edit_date']                   = 'Estimate Date';
+$lang['estimate_select_customer']                 = 'العميل';
+$lang['estimate_add_edit_number']                 = 'تقدير الرقم';
+$lang['estimate_add_edit_date']                   = 'تقدير التاريخ';
 $lang['estimate_add_edit_expirydate']             = 'تاريخ الصلاحية';
 $lang['estimate_add_edit_currency']               = 'Currency';
-$lang['estimate_add_edit_client_note']            = 'Client Note';
-$lang['estimate_add_edit_admin_note']             = 'Admin Note';
+$lang['estimate_add_edit_client_note']            = 'ملاحظة العميل';
+$lang['estimate_add_edit_admin_note']             = 'ملاحظة المسؤول';
 $lang['estimates_toggle_table_tooltip']           = 'Toggle Table';
-$lang['estimate_add_edit_advanced_options']       = 'Advanced Options';
+$lang['estimate_add_edit_advanced_options']       = 'خيارات متقدمة';
 $lang['estimate_to']                              = 'To';
-$lang['estimates_list_all']                       = 'All';
-$lang['estimate_invoiced_date']                   = 'Estimate Invoiced on %s';
-$lang['edit_estimate_tooltip']                    = 'Edit Estimate';
-$lang['delete_estimate_tooltip']                  = 'Delete Estimate';
-$lang['estimate_sent_to_email_tooltip']           = 'Send to Email';
-$lang['estimate_already_send_to_client_tooltip']  = 'This estimate is already sent to the client %s';
-$lang['estimate_view_activity_tooltip']           = 'Activity Log';
-$lang['estimate_send_to_client_modal_heading']    = 'Send estimate to client';
-$lang['estimate_send_to_client_attach_pdf']       = 'Attach estimate PDF';
-$lang['estimate_send_to_client_preview_template'] = 'Preview Email Template';
+$lang['estimates_list_all']                       = 'الكل';
+$lang['estimate_invoiced_date']                   = 'تقدير الفاتورة من: %s';
+$lang['edit_estimate_tooltip']                    = 'تعديل التقدير';
+$lang['delete_estimate_tooltip']                  = 'حذف التقدير';
+$lang['estimate_sent_to_email_tooltip']           = 'الإرسال للإيميل';
+$lang['estimate_already_send_to_client_tooltip']  = 'هذا التقدير تم إرساله للعميل: %s';
+$lang['estimate_view_activity_tooltip']           = 'سجل النشاط';
+$lang['estimate_send_to_client_modal_heading']    = 'إرسال التقدير للعميل';
+$lang['estimate_send_to_client_attach_pdf']       = 'إرفاق التقدير PDF';
+$lang['estimate_send_to_client_preview_template'] = 'عرض قالب الإيميل';
 $lang['estimate_dt_table_heading_number']         = 'رقم التقدير';
 $lang['estimate_dt_table_heading_date']           = 'التاريخ';
-$lang['estimate_dt_table_heading_client']         = 'Customer';
+$lang['estimate_dt_table_heading_client']         = 'العميل';
 $lang['estimate_dt_table_heading_expirydate']     = 'تاريخ الصلاحية';
 $lang['estimate_dt_table_heading_amount']         = 'الكمية';
 $lang['estimate_dt_table_heading_status']         = 'الحالة';
-$lang['estimate_convert_to_invoice']              = 'Convert to Invoice';
+$lang['estimate_convert_to_invoice']              = 'تحويل إلى فاتورة';
 
 # Clients
 $lang['client_payments_tab'] = 'Payments';
 
 # Estimate General
-$lang['estimate_pdf_heading']            = 'ESTIMATE';
-$lang['estimate_table_item_heading']     = 'Item';
-$lang['estimate_table_quantity_heading'] = 'Qty';
+$lang['estimate_pdf_heading']            = 'تقدير';
+$lang['estimate_table_item_heading']     = 'العنصر';
+$lang['estimate_table_quantity_heading'] = 'الكمية';
 $lang['estimate_table_rate_heading']     = 'Rate';
-$lang['estimate_table_tax_heading']      = 'Tax';
+$lang['estimate_table_tax_heading']      = 'ضريبة';
 $lang['estimate_table_amount_heading']   = 'الكمية';
-$lang['estimate_subtotal']               = 'Sub Total';
-$lang['estimate_adjustment']             = 'Adjustment';
-$lang['estimate_discount']               = 'Discount';
+$lang['estimate_subtotal']               = 'المجموع الفرعي';
+$lang['estimate_adjustment']             = 'تعديل';
+$lang['estimate_discount']               = 'خسم';
 $lang['estimate_total']                  = 'الإجمالي';
-$lang['estimate_to']                     = 'To';
-$lang['estimate_data_date']              = 'Estimate Date';
+$lang['estimate_to']                     = 'لـ';
+$lang['estimate_data_date']              = 'تاريخ التقدير';
 $lang['estimate_data_expiry_date']       = 'تاريخ الصلاحية';
-$lang['estimate_note']                   = 'Note:';
-$lang['estimate_status_draft']           = 'Draft';
+$lang['estimate_note']                   = 'ملاحظة:';
+$lang['estimate_status_draft']           = 'مسودة';
 $lang['estimate_status_sent']            = 'المرسلة';
 $lang['estimate_status_declined']        = 'المرفوضة';
 $lang['estimate_status_accepted']        = 'المقبولة';
 $lang['estimate_status_expired']         = 'المنتهية';
-$lang['estimate_note']                   = 'Note:';
+$lang['estimate_note']                   = 'ملاحظة:';
 
 ## Clients
 $lang['clients_estimate_dt_number']             = 'رقم التقدير';
@@ -1098,146 +1098,147 @@ $lang['clients_estimate_dt_duedate']            = 'تاريخ الصلاحية';
 $lang['clients_estimate_dt_amount']             = 'الكمية';
 $lang['clients_estimate_dt_status']             = 'الحالة';
 $lang['clients_nav_estimates']                  = 'التقديرات';
-$lang['clients_decline_estimate']               = 'Decline';
-$lang['clients_accept_estimate']                = 'Accept';
+$lang['clients_decline_estimate']               = 'رفض';
+$lang['clients_accept_estimate']                = 'قبول';
 $lang['clients_my_estimates']                   = 'التقديرات';
-$lang['clients_estimate_invoiced_successfully'] = 'Thank you for accepting the estimate. Please review the created invoice for the estimate';
-$lang['clients_estimate_accepted_not_invoiced'] = 'Thank you for accepting this estimate';
-$lang['clients_estimate_declined']              = 'Estimate declined. You can accept the estimate any time before expiry date';
-$lang['clients_estimate_failed_action']         = 'Failed to take action on this estimate';
+$lang['clients_estimate_invoiced_successfully'] = 'شكرا لقبول التقدير. الرجاء مراجعه الفاتوره التي تم انشاؤها للتقدير';
+$lang['clients_estimate_accepted_not_invoiced'] = 'شكرا لك على قبول هذا التقديل';
+$lang['clients_estimate_declined']              = 'تم رفض التقدير. يمكنك قبول التقدير في أي وقت قبل تاريخ الانتهاء';
+$lang['clients_estimate_failed_action']         = 'فشل إتخاذ إجراء بشان هذا التقدير';
 $lang['client_add_edit_profile']                = 'الملف الشخصي';
 
 # Custom Fields
-$lang['custom_field']                          = 'Custom field';
+$lang['custom_field']                          = 'حقل مخصص';
 $lang['custom_field_lowercase']                = 'custom field';
-$lang['custom_fields']                         = 'Custom Fields';
-$lang['new_custom_field']                      = 'New Custom Field';
-$lang['custom_field_name']                     = 'Field Name';
-$lang['custom_field_add_edit_type']            = 'Type';
-$lang['custom_field_add_edit_belongs_top']     = 'Field Belongs to';
-$lang['custom_field_add_edit_options']         = 'Options';
+$lang['custom_fields']                         = 'حقول مخصصة';
+$lang['new_custom_field']                      = 'حقل مخصص جديد';
+$lang['custom_field_name']                     = 'اسم الحقل';
+$lang['custom_field_add_edit_type']            = 'النوع';
+$lang['custom_field_add_edit_belongs_top']     = 'الحقل يتبع لـ';
+$lang['custom_field_add_edit_options']         = 'خيارات';
 $lang['custom_field_add_edit_options_tooltip'] = 'Only use for Select, Checkbox types. Populate the field by separating the options by coma. eq. apple,orange,banana';
-$lang['custom_field_add_edit_order']           = 'Order';
-$lang['custom_field_dt_field_to']              = 'Belongs to';
-$lang['custom_field_dt_field_name']            = 'Name';
-$lang['custom_field_dt_field_type']            = 'Type';
-$lang['custom_field_add_edit_active']          = 'Active';
-$lang['custom_field_add_edit_disabled']        = 'Disabled';
+$lang['custom_field_add_edit_order']           = 'الطلب';
+$lang['custom_field_dt_field_to']              = 'يتبع لـ';
+$lang['custom_field_dt_field_name']            = 'الإسم';
+$lang['custom_field_dt_field_type']            = 'النوع';
+$lang['custom_field_add_edit_active']          = 'نشط';
+$lang['custom_field_add_edit_disabled']        = 'مرفوض';
 
 # Ticket replies
-$lang['ticket_reply'] = 'Ticket Reply';
+$lang['ticket_reply'] = 'الرد على التذكرة';
 
 # Admin Customizer Sidebar
-$lang['asc_custom_fields'] = 'Custom Fields';
+$lang['asc_custom_fields'] = 'حقول مخصصة';
 
 # Contracts
-$lang['contract_types']           = 'Contracts Types';
-$lang['contract_type']            = 'Contract type';
-$lang['new_contract_type']        = 'New Contract Type';
-$lang['contract_type_lowercase']  = 'contract';
-$lang['contract_type_name']       = 'Name';
+$lang['contract_types']           = 'أنواع العقود';
+$lang['contract_type']            = 'نوع العقد';
+$lang['new_contract_type']        = 'نوع عقد جديد';
+$lang['contract_type_lowercase']  = 'عقد';
+$lang['contract_type_name']       = 'الإسم';
 $lang['contract_types_list_name'] = 'نوع العقد';
 
 # Customizer Menu
 $lang['acs_contracts']      = 'العقود';
-$lang['acs_contract_types'] = 'Contract Types';
+$lang['acs_contract_types'] = 'أنواع العقد';
 
 # Version 1.0.4
 # Invoice Items
-$lang['invoice_item_long_description'] = 'Long Description';
+$lang['invoice_item_long_description'] = 'وصف طويل';
 
 # Customers
 $lang['clients_list_phone']                = 'الهاتف';
-$lang['client_expenses_tab']               = 'Expenses';
-$lang['customers_summary']                 = 'Customers Summary';
-$lang['customers_summary_active']          = 'Active Contacts';
-$lang['customers_summary_inactive']        = 'Inactive Contacts';
-$lang['customers_summary_logged_in_today'] = 'Contacts Logged In Today';
+$lang['client_expenses_tab']               = 'المصروفات';
+$lang['customers_summary']                 = 'ملخص العملاء';
+$lang['customers_summary_active']          = 'العملاء النشطين';
+$lang['customers_summary_inactive']        = 'العملاء غير النشطين';
+$lang['customers_summary_logged_in_today'] = 'العملاء النشطين اليوم';
 
 # Authentication
 $lang['admin_auth_forgot_password_email']     = 'البريد الإلكتروني';
-$lang['admin_auth_forgot_password_heading']   = 'Forgot Password';
-$lang['admin_auth_login_heading']             = 'Login';
+$lang['admin_auth_forgot_password_heading']   = 'نسيت كلمة السر';
+$lang['admin_auth_login_heading']             = 'تسجيل الدخول';
 $lang['admin_auth_login_email']               = 'البريد الإلكتروني';
-$lang['admin_auth_login_password']            = 'Password';
-$lang['admin_auth_login_remember_me']         = 'Remember me';
-$lang['admin_auth_login_button']              = 'Login';
-$lang['admin_auth_login_fp']                  = 'Forgot Password?';
-$lang['admin_auth_reset_password_heading']    = 'Reset Password';
-$lang['admin_auth_reset_password']            = 'Password';
-$lang['admin_auth_reset_password_repeat']     = 'إعادة كلمة المرور';
-$lang['admin_auth_invalid_email_or_password'] = 'Invalid email or password';
-$lang['admin_auth_inactive_account']          = 'Inactive Account';
+$lang['admin_auth_login_password']            = 'كلمة السر';
+$lang['admin_auth_login_remember_me']         = 'تذكرني';
+$lang['admin_auth_login_button']              = 'تسجيل الدخول';
+$lang['admin_auth_login_fp']                  = 'نسيت كلمة السر?';
+$lang['admin_auth_reset_password_heading']    = 'إعادة تعيين كلمة السر';
+$lang['admin_auth_reset_password']            = 'كلمة السر';
+$lang['admin_auth_reset_password_repeat']     = 'إعادة كلمة السر';
+$lang['admin_auth_invalid_email_or_password'] = 'كلمة السر أو البريد الإلكتروني غير صالح';
+$lang['admin_auth_inactive_account']          = 'الحساب غير نشط';
 
 # Calender
 $lang['calendar_estimate']          = 'تقدير';
 $lang['calendar_invoice']           = 'فاتورة';
 $lang['calendar_contract']          = 'عقد';
-$lang['calendar_customer_reminder'] = 'Client Reminder';
-$lang['calendar_event']             = 'Event';
+$lang['calendar_customer_reminder'] = 'تذكير العميل';
+$lang['calendar_event']             = 'فعالية';
 $lang['calendar_task']              = 'مهمة';
 
 # Leads
-$lang['lead_edit_delete_tooltip'] = 'Delete Lead';
+$lang['lead_edit_delete_tooltip'] = 'حذف العميل';
 $lang['lead_attachments']         = 'المرفقات';
 
 # Admin Customizer Sidebar
-$lang['acs_finance'] = 'Finance';
+$lang['acs_finance'] = 'المالية';
 
 # Settings
-$lang['settings_show_sale_agent_on_invoices']       = 'Show Sale Agent On Invoice';
-$lang['settings_show_sale_agent_on_estimates']      = 'Show Sale Agent On Estimate';
-$lang['settings_predefined_predefined_term']        = 'Predefined Terms & Conditions';
-$lang['settings_predefined_clientnote']             = 'Predefined Client Note';
+$lang['settings_show_sale_agent_on_invoices']       = 'إظهار وكيل المبيعات على الفاتورة';
+$lang['settings_show_sale_agent_on_estimates']      = 'أظهر وكيل المبيعات عند التقدير';
+$lang['settings_predefined_predefined_term']        = 'الأحكام والشروط المحددة مسبقا';
+$lang['settings_predefined_clientnote']             = 'ملاحظة عميل معرفة مسبقا';
 $lang['settings_custom_pdf_logo_image_url']         = 'Custom PDF Company Logo URL';
 $lang['settings_custom_pdf_logo_image_url_tooltip'] = 'Probably you will have problems with PNG images with transparency that are handled in different way depending on the php-imagick or php-gd version used. Try to update php-imagick and disable php-gd
 . If you leave this field blank the uploaded logo will be used.';
 
 # General
-$lang['sale_agent_string']               = 'Sale Agent';
-$lang['amount_display_in_base_currency'] = 'Amount is displayed in your base currency - Only use this report if you are using 1 currency for payments and expenses.';
+$lang['sale_agent_string']               = 'وكيل المبيعات';
+$lang['amount_display_in_base_currency'] = 'يتم عرض المبلغ بعملتك الأساسية - استخدم هذا التقرير إذا كانت عملتك واحدة للمدفوعات والمصروفات
+.';
 # Leads
-$lang['leads_summary'] = 'Leads Summary';
+$lang['leads_summary'] = 'ملخص العملاء';
 
 # Contracts
-$lang['contract_value']                       = 'Contract Value';
-$lang['contract_trash']                       = 'Trash';
-$lang['contracts_view_trash']                 = 'View Trash';
-$lang['contracts_view_all']                   = 'All';
-$lang['contracts_view_exclude_trashed']       = 'Exclude Trashed Contracts';
-$lang['contract_value_tooltip']               = 'Base currency will be used.';
+$lang['contract_value']                       = 'قيمة العقود';
+$lang['contract_trash']                       = 'المحذوفات';
+$lang['contracts_view_trash']                 = 'إظهار المحذوفات';
+$lang['contracts_view_all']                   = 'الكل';
+$lang['contracts_view_exclude_trashed']       = 'إهمال العقود المحذوفة';
+$lang['contract_value_tooltip']               = 'سيتم إستخدام العملة الأساسية.';
 $lang['contract_trash_tooltip']               = 'If you add contract to trash, won\'t be shown on client side, won\'t be included in chart and other stats and also by default won\'t be shown when you will list all contracts.';
-$lang['contract_summary_active']              = 'Active';
-$lang['contract_renew_heading']               = 'Renew Contract';
-$lang['contract_summary_heading']             = 'Contract Summary';
+$lang['contract_summary_active']              = 'نشط';
+$lang['contract_renew_heading']               = 'تجديد العقد';
+$lang['contract_summary_heading']             = 'ملحق العقد';
 $lang['contract_summary_expired']             = 'المنتهية';
-$lang['contract_summary_about_to_expire']     = 'About to Expire';
-$lang['contract_summary_recently_added']      = 'Recently Added';
-$lang['contract_summary_trash']               = 'Trash';
+$lang['contract_summary_about_to_expire']     = 'على وشك الإنتهاء';
+$lang['contract_summary_recently_added']      = 'مضافة حديثا';
+$lang['contract_summary_trash']               = 'المحذوفات';
 $lang['contract_summary_by_type']             = 'العقود حسب النوع';
-$lang['contract_summary_by_type_value']       = 'Contracts Value by Type';
-$lang['contract_renewed_successfully']        = 'Contract renewed successfully';
-$lang['contract_renewed_fail']                = 'Problem while renewing the contract. Contact administrator';
-$lang['no_contract_renewals_found']           = 'Renewals for this contract are not found';
-$lang['no_contract_renewals_history_heading'] = 'Contract Renewal History';
-$lang['contract_renewed_by']                  = '%s renewed this contract';
-$lang['contract_renewal_deleted']             = 'Renewal successfully deleted';
-$lang['contract_renewal_delete_fail']         = 'Failed to delete contract renewal. Contact administrator';
-$lang['contract_renewal_new_value']           = 'New Contract Value: %s';
-$lang['contract_renewal_old_value']           = 'Old Contract Value: %s';
-$lang['contract_renewal_new_start_date']      = 'New Start Date: %s';
-$lang['contract_renewal_old_start_date']      = 'Old Contract Start Date was: %s';
-$lang['contract_renewal_new_end_date']        = 'New End Date: %s';
-$lang['contract_renewal_old_end_date']        = 'Old Contract End Date was: %s';
-$lang['contract_attachment']                  = 'Attachment';
+$lang['contract_summary_by_type_value']       = 'قيمة العقود حسب النوع';
+$lang['contract_renewed_successfully']        = 'تم تجديد العقد بنجاح';
+$lang['contract_renewed_fail']                = 'خطأ في تجديد العقد. تواصل بالمسؤول';
+$lang['no_contract_renewals_found']           = 'لم يتم العثور على عمليات التجديد لهذا العقد';
+$lang['no_contract_renewals_history_heading'] = 'تاريخ تجديد العقد';
+$lang['contract_renewed_by']                  = '%s جدد هذا العقد';
+$lang['contract_renewal_deleted']             = 'تم حذف التجديد بنجاح';
+$lang['contract_renewal_delete_fail']         = 'خطأ في حذف تجديد العقد. تواصل مع المسؤول';
+$lang['contract_renewal_new_value']           = 'قيمة العقد الجديد: %s';
+$lang['contract_renewal_old_value']           = 'قيمة العقد القديم: %s';
+$lang['contract_renewal_new_start_date']      = 'تاريخ بدء جديد: %s';
+$lang['contract_renewal_old_start_date']      = 'تاريخ بدء العقد القديم: %s';
+$lang['contract_renewal_new_end_date']        = 'تاريخ الإنتهاء الجديد: %s';
+$lang['contract_renewal_old_end_date']        = 'تاريخ انتهاء العقد القديم: %s';
+$lang['contract_attachment']                  = 'المرفقات';
 
 # Admin Aside Menu
-$lang['als_expenses']           = 'Expenses';
-$lang['als_reports_expenses']   = 'Expenses';
-$lang['als_expenses_vs_income'] = 'Expenses vs Income';
+$lang['als_expenses']           = 'النفقات';
+$lang['als_reports_expenses']   = 'النفقات';
+$lang['als_expenses_vs_income'] = 'النفقات مقابل الإيرادات';
 
 # Invoices
-$lang['invoice_attach_file']           = 'Attach File';
+$lang['invoice_attach_file']           = 'إرفاق ملف';
 $lang['invoice_mark_as_sent']          = 'Mark as Sent';
 $lang['invoice_marked_as_sent']        = 'Invoice marked as sent successfully';
 $lang['invoice_marked_as_sent_failed'] = 'Failed to mark invoice as sent';
@@ -1246,82 +1247,82 @@ $lang['invoice_marked_as_sent_failed'] = 'Failed to mark invoice as sent';
 $lang['payment_transaction_id'] = 'Transaction ID';
 
 # Expenses
-$lang['acs_expense_categories']                       = 'Expenses Categories';
-$lang['expense_category']                             = 'Expense Category';
-$lang['expense_category_lowercase']                   = 'expense category';
-$lang['new_expense']                                  = 'Record Expense';
-$lang['expense_add_edit_name']                        = 'Category Name';
-$lang['expense_add_edit_description']                 = 'Category Description';
-$lang['expense_categories']                           = 'Expense Categories';
-$lang['new_expense_category']                         = 'New Category';
-$lang['dt_expense_description']                       = 'Description';
-$lang['expense']                                      = 'Expense';
-$lang['expenses']                                     = 'Expenses';
-$lang['expense_lowercase']                            = 'expense';
-$lang['expense_add_edit_customer']                    = 'Customer';
-$lang['expense_add_edit_note']                        = 'Note';
-$lang['expense_add_edit_date']                        = 'Expense Date';
+$lang['acs_expense_categories']                       = 'تصنيفات النفقات';
+$lang['expense_category']                             = 'تصنيف النفقة';
+$lang['expense_category_lowercase']                   = 'تصنيف نفقة';
+$lang['new_expense']                                  = 'تسجيل النفقة';
+$lang['expense_add_edit_name']                        = 'اسم التصنيف';
+$lang['expense_add_edit_description']                 = 'وصف التصنيف';
+$lang['expense_categories']                           = 'تصنيفات النفقة';
+$lang['new_expense_category']                         = 'تصنيف جديد';
+$lang['dt_expense_description']                       = 'وصف';
+$lang['expense']                                      = 'النفقة';
+$lang['expenses']                                     = 'النفقات';
+$lang['expense_lowercase']                            = 'نفقة';
+$lang['expense_add_edit_customer']                    = 'عميل';
+$lang['expense_add_edit_note']                        = 'ملاحظة';
+$lang['expense_add_edit_date']                        = 'تاريخ الإنفاق';
 $lang['expense_add_edit_amount']                      = 'الكمية';
-$lang['expense_add_edit_billable']                    = 'Billable';
-$lang['expense_add_edit_attach_receipt']              = 'Attach Receipt';
+$lang['expense_add_edit_billable']                    = 'مفوتر';
+$lang['expense_add_edit_attach_receipt']              = 'إرفاق الوصل';
 $lang['expense_add_edit_reference_no']                = 'رقم المرجع';
-$lang['expense_receipt']                              = 'Expense Receipt';
-$lang['expense_receipt_lowercase']                    = 'expense receipt';
-$lang['expense_dt_table_heading_category']            = 'Category';
+$lang['expense_receipt']                              = 'وصل النفقة';
+$lang['expense_receipt_lowercase']                    = 'وصل نفقة';
+$lang['expense_dt_table_heading_category']            = 'التصنيف';
 $lang['expense_dt_table_heading_amount']              = 'الكمية';
 $lang['expense_dt_table_heading_date']                = 'التاريخ';
 $lang['expense_dt_table_heading_reference_no']        = 'رقم المرجع';
-$lang['expense_dt_table_heading_customer']            = 'Customer';
-$lang['expense_dt_table_heading_payment_mode']        = 'Payment Mode';
-$lang['expense_converted_to_invoice']                 = 'Expense successfully converted to invoice';
+$lang['expense_dt_table_heading_customer']            = 'العميل';
+$lang['expense_dt_table_heading_payment_mode']        = 'حالة الدفع';
+$lang['expense_converted_to_invoice']                 = 'تم تحويل المصروفات الى فاتورة بنجاح';
 $lang['expense_converted_to_invoice_fail']            = 'Failed to convert this expense to invoice check error log.';
-$lang['expense_copy_success']                         = 'The expense is copied successfully.';
+$lang['expense_copy_success']                         = 'تم نسخ النفقات بنجاح.';
 $lang['expense_copy_fail']                            = 'Failed to copy expense. Please check the required fields and try again';
-$lang['expenses_list_all']                            = 'All';
+$lang['expenses_list_all']                            = 'الكل';
 $lang['expenses_list_billable']                       = 'Billable';
 $lang['expenses_list_non_billable']                   = 'Non Billable';
-$lang['expenses_list_invoiced']                       = 'Invoiced';
-$lang['expenses_list_unbilled']                       = 'Not Invoiced';
-$lang['expenses_list_recurring']                      = 'Recurring';
-$lang['expense_invoice_delete_not_allowed']           = 'You cant delete this expense. The expense is already invoiced.';
-$lang['expense_convert_to_invoice']                   = 'Convert To Invoice';
-$lang['expense_edit']                                 = 'Edit Expense';
-$lang['expense_delete']                               = 'Delete';
-$lang['expense_copy']                                 = 'Copy';
-$lang['expense_invoice_not_created']                  = 'Invoice Not Created';
+$lang['expenses_list_invoiced']                       = 'الفاتورة';
+$lang['expenses_list_unbilled']                       = 'غير مفوترة';
+$lang['expenses_list_recurring']                      = 'مكررة';
+$lang['expense_invoice_delete_not_allowed']           = 'لا يمكنك حذف هذه النفقة. هذه النفقة مفوترة.';
+$lang['expense_convert_to_invoice']                   = 'التحويل إلى فاتورة';
+$lang['expense_edit']                                 = 'تعديل النفقات';
+$lang['expense_delete']                               = 'حذف';
+$lang['expense_copy']                                 = 'نسخ';
+$lang['expense_invoice_not_created']                  = 'لم يتم إنشاء الفاتورة';
 $lang['expense_billed']                               = 'Billed';
-$lang['expense_not_billed']                           = 'Invoice Not Paid';
-$lang['expense_customer']                             = 'Customer';
-$lang['expense_note']                                 = 'Note:';
-$lang['expense_date']                                 = 'Date:';
-$lang['expense_ref_noe']                              = 'Ref #:';
-$lang['expense_amount']                               = 'Amount:';
-$lang['expense_recurring_indicator']                  = 'Recurring';
-$lang['expense_already_invoiced']                     = 'This expense is already invoiced';
-$lang['expense_recurring_auto_create_invoice']        = 'Auto Create Invoice';
-$lang['expense_recurring_send_custom_on_renew']       = 'Send the invoice to customer email when expense re-created';
-$lang['expense_recurring_autocreate_invoice_tooltip'] = 'If this option is checked the invoice for the customer will be auto created when the expense will be renewed.';
-$lang['expenses_yearly_by_categories']                = 'Expenses Yearly by Categories';
-$lang['total_expenses_for']                           = 'Total Expenses for'; // year
-$lang['expenses_report_for']                          = 'Expenses for'; // year
+$lang['expense_not_billed']                           = 'لم يتم دفع الفاتورة';
+$lang['expense_customer']                             = 'العميل';
+$lang['expense_note']                                 = 'ملاحظة:';
+$lang['expense_date']                                 = 'التاريخ:';
+$lang['expense_ref_noe']                              = 'المرجع #:';
+$lang['expense_amount']                               = 'المبلغ:';
+$lang['expense_recurring_indicator']                  = 'مكررة';
+$lang['expense_already_invoiced']                     = 'تمت فوتره هذه النفقات بالفعل';
+$lang['expense_recurring_auto_create_invoice']        = 'انشاء فاتورة بشكل تلقائي';
+$lang['expense_recurring_send_custom_on_renew']       = 'إرسال الفاتورة إلى إيميل العميل عند إعادة إنشاء النفقات';
+$lang['expense_recurring_autocreate_invoice_tooltip'] = 'إذا تم تحديد هذا الخيار، فسيتم إنشاء فاتورة العميل تلقائيا عند تجديد النفقات.';
+$lang['expenses_yearly_by_categories']                = 'النفقات السنوية حسب التصنيف';
+$lang['total_expenses_for']                           = 'مجموع النفقات في'; // year
+$lang['expenses_report_for']                          = 'النفقات في'; // year
 
 # Custom fields
-$lang['custom_field_required']    = 'Required';
-$lang['custom_field_show_on_pdf'] = 'Show on PDF';
+$lang['custom_field_required']    = 'مطلوب';
+$lang['custom_field_show_on_pdf'] = 'إظهار كـ PDF';
 $lang['custom_field_leads']       = 'Leads';
-$lang['custom_field_customers']   = 'Customers';
-$lang['custom_field_staff']       = 'Staff';
+$lang['custom_field_customers']   = 'العملاء';
+$lang['custom_field_staff']       = 'الموظفين';
 $lang['custom_field_contracts']   = 'العقود';
-$lang['custom_field_tasks']       = 'Tasks';
-$lang['custom_field_expenses']    = 'Expenses';
+$lang['custom_field_tasks']       = 'الهمات';
+$lang['custom_field_expenses']    = 'النفقات';
 $lang['custom_field_invoice']     = 'فاتورة';
 $lang['custom_field_estimate']    = 'تقدير';
 
 # Tickets
-$lang['ticket_single_private_staff_notes'] = 'Private Staff Notes';
+$lang['ticket_single_private_staff_notes'] = 'ملاحظات الموظفين خاص';
 
 # Business News
-$lang['business_news'] = 'Business News';
+$lang['business_news'] = 'أخبار الأعمال';
 
 # Navigation
 $lang['nav_todo_items'] = 'Todo items';
@@ -1331,66 +1332,66 @@ $lang['clients_contracts_type'] = 'نوع العقد';
 
 # Version 1.0.5
 # General
-$lang['no_tax']                              = 'No Tax';
+$lang['no_tax']                              = 'بدون ضريبة';
 $lang['numbers_not_formatted_while_editing'] = 'The number in the input field is not formatted while edit/add item and should remain not formatted do not try to format it manually in here.';
 # Contracts
 $lang['contracts_view_expired']         = 'المنتهية';
-$lang['contracts_view_without_dateend'] = 'Contracts Without Date End';
+$lang['contracts_view_without_dateend'] = 'عقود بدون تاريخ انتهاء';
 
 # Email Templates
 $lang['email_template_contracts_fields_heading'] = 'العقود';
 
 # Invoices General
-$lang['invoice_estimate_general_options'] = 'General Options';
-$lang['invoice_table_item_description']   = 'Description';
-$lang['invoice_recurring_indicator']      = 'Recurring';
+$lang['invoice_estimate_general_options'] = 'خيارات عامة';
+$lang['invoice_table_item_description']   = 'الوصف';
+$lang['invoice_recurring_indicator']      = 'مكررة';
 
 # Estimates
-$lang['estimate_convert_to_invoice_successfully'] = 'Estimate converted to invoice successfully';
-$lang['estimate_table_item_description']          = 'Description';
+$lang['estimate_convert_to_invoice_successfully'] = 'تم تحويل التقدير الى فاتورة بنجاح';
+$lang['estimate_table_item_description']          = 'الوصف';
 
 # Version 1.0.6
 # Invoices
 # Currencies
 $lang['cant_delete_base_currency'] = 'You cant delete the base currency. You need to assign new base currency then perform delete.';
-$lang['invoice_copy']              = 'Copy Invoice';
-$lang['invoice_copy_success']      = 'Invoice copied successfully';
-$lang['invoice_copy_fail']         = 'Failed to copy invoice';
+$lang['invoice_copy']              = 'نسخ الفاتورة';
+$lang['invoice_copy_success']      = 'تم نسخ الفاتورة بنجاح';
+$lang['invoice_copy_fail']         = 'فشل بعملية النسخ';
 $lang['invoice_due_after_help']    = 'Set zero to avoid calculation';
-$lang['show_shipping_on_invoice']  = 'Show shipping details in invoice';
+$lang['show_shipping_on_invoice']  = 'إظهار معلومات الشحن في الفاتورة';
 
 # Estimates
-$lang['show_shipping_on_estimate']         = 'Show shipping details in estimate';
-$lang['is_invoiced_estimate_delete_error'] = 'This estimate is invoiced. You cant delete the estimate';
+$lang['show_shipping_on_estimate']         = 'إضهار تفاصيل الشحن في التقدير';
+$lang['is_invoiced_estimate_delete_error'] = 'تمت فوترة هذا التقدير. لا يمكنك حذفه';
 
 # Customers & Invoices / Estimates
-$lang['ship_to']                            = 'Ship to';
-$lang['customer_profile_details']           = 'Customer Details';
-$lang['billing_shipping']                   = 'Billing & Shipping';
-$lang['billing_address']                    = 'Billing Address';
-$lang['shipping_address']                   = 'Shipping Address';
-$lang['billing_street']                     = 'Street';
+$lang['ship_to']                            = 'شحن لـ';
+$lang['customer_profile_details']           = 'معلومات العميل';
+$lang['billing_shipping']                   = 'الفوترة والشحن';
+$lang['billing_address']                    = 'عنوان الفاتورة';
+$lang['shipping_address']                   = 'عنوان الشحن';
+$lang['billing_street']                     = 'الشارع';
 $lang['billing_city']                       = 'المدينة';
 $lang['billing_state']                      = 'الولاية';
 $lang['billing_zip']                        = 'الرمز البريدي';
 $lang['billing_country']                    = 'الدولة';
-$lang['shipping_street']                    = 'Street';
+$lang['shipping_street']                    = 'الشارع';
 $lang['shipping_city']                      = 'المدينة';
 $lang['shipping_state']                     = 'الولاية';
 $lang['shipping_zip']                       = 'الرمز البريدي';
 $lang['shipping_country']                   = 'الدولة';
-$lang['get_shipping_from_customer_profile'] = 'Get shipping details from customer profile';
+$lang['get_shipping_from_customer_profile'] = 'الحصول على تفاصيل الشحن من ملف العميل الشخصي';
 
 # Customer
-$lang['customer_default_currency']                             = 'Default Currency';
+$lang['customer_default_currency']                             = 'العملة الافتراضية';
 $lang['customer_update_address_info_on_invoices']              = 'Update the shipping/billing info on all previous invoices/estimates';
 $lang['customer_update_address_info_on_invoices_help']         = 'If you check this field shipping and billing info will be updated to all invoices and estimates. Note: Invoices with status paid won\'t be affected.';
 $lang['setup_google_api_key_customer_map']                     = 'Setup google api key in order to view to customer map';
 $lang['customer_attachments_file']                             = 'ملف';
 $lang['client_send_set_password_email']                        = 'Send SET password email';
-$lang['customer_billing_same_as_profile']                      = 'Same as Customer Info';
-$lang['customer_billing_copy']                                 = 'Copy Billing Address';
-$lang['customer_map']                                          = 'Map';
+$lang['customer_billing_same_as_profile']                      = 'نفس معلومات العميل';
+$lang['customer_billing_copy']                                 = 'نسخ عنوان الفاتورة';
+$lang['customer_map']                                          = 'خريطة';
 $lang['set_password_email_sent_to_client']                     = 'Email to set password is successfully sent to contact';
 $lang['set_password_email_sent_to_client_and_profile_updated'] = 'Profile updated and email to set password is successfully sent to contact';
 $lang['customer_attachments']                                  = 'الملفات';
@@ -1398,21 +1399,21 @@ $lang['customer_longitude']                                    = 'Longitude (Goo
 $lang['customer_latitude']                                     = 'Latitude (Google Maps)';
 
 # Authentication
-$lang['admin_auth_set_password']         = 'Password';
+$lang['admin_auth_set_password']         = 'كلمة السر';
 $lang['admin_auth_set_password_repeat']  = 'إعادة كلمة المرور';
-$lang['admin_auth_set_password_heading'] = 'Set Password';
+$lang['admin_auth_set_password_heading'] = 'ضبط كلمة المرور';
 
 # General
 $lang['apply']                         = 'Apply';
 $lang['department_calendar_id']        = 'Google Calendar ID';
 $lang['localization_default_language'] = 'اللغة الافتراضية';
 $lang['system_default_string']         = 'الافتراضي';
-$lang['advanced_options']              = 'Advanced Options';
+$lang['advanced_options']              = 'خيارات متقدمة';
 
 # Expenses
-$lang['expense_list_invoice']  = 'Invoiced';
-$lang['expense_list_billed']   = 'Billed';
-$lang['expense_list_unbilled'] = 'Not Invoiced';
+$lang['expense_list_invoice']  = 'الفاتورة';
+$lang['expense_list_billed']   = 'تمت الفوترة';
+$lang['expense_list_unbilled'] = 'ليست مفوترة';
 
 # Leads
 $lang['lead_merge_custom_field']          = 'Merge as custom field';
@@ -1456,36 +1457,36 @@ $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = '
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'If this options is set to yes and eq. the system default language is English and client have setup language french the pdf documents will be outputted in the client language';
 $lang['settings_default_tax']                                                = 'Default Tax';
 $lang['setup_calendar_by_departments']                                       = 'Setup calendar by Departments';
-$lang['settings_calendar']                                                   = 'Calendar';
+$lang['settings_calendar']                                                   = 'رزنامة';
 $lang['settings_sales_invoice_due_after']                                    = 'Invoice due after (days)';
 $lang['settings_google_api']                                                 = 'Google API Key';
 $lang['settings_gcal_main_calendar_id']                                      = 'Google Calendar ID';
 $lang['settings_gcal_main_calendar_id_help']                                 = 'This is the main company calendar. All events from this calendar will be shown. If you want to specify a calendar based on departments you can add in the department Google Calendar ID.';
-$lang['show_on_calendar']                                                    = 'Show on Calendar';
+$lang['show_on_calendar']                                                    = 'إظهار في الرزنامة';
 $lang['show_invoices_on_calendar']                                           = 'الفواتير';
 $lang['show_estimates_on_calendar']                                          = 'التقديرات';
 $lang['show_contracts_on_calendar']                                          = 'العقود';
-$lang['show_tasks_on_calendar']                                              = 'Tasks';
-$lang['show_customer_reminders_on_calendar']                                 = 'Customer Reminders';
+$lang['show_tasks_on_calendar']                                              = 'المهمات';
+$lang['show_customer_reminders_on_calendar']                                 = 'تذكيرات العملاء';
 
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Copy custom fields to customer profile';
 $lang['copy_custom_fields_convert_to_customer_help']                 = 'If any of the following custom fields do not exists for customer will be auto created with the same name otherwise only the value will be copied from the lead profile.';
 $lang['lead_profile']                                                = 'الملف الشخصي';
-$lang['lead_is_client']                                              = 'Customer';
+$lang['lead_is_client']                                              = 'العميل';
 $lang['leads_email_integration_folder_no_encryption']                = 'No Encryption';
 $lang['leads_email_integration']                                     = 'Email Integration';
-$lang['leads_email_active']                                          = 'Active';
+$lang['leads_email_active']                                          = 'نشط';
 $lang['leads_email_integration_imap']                                = 'IMAP Server';
 $lang['leads_email_integration_email']                               = 'Email address (Login)';
-$lang['leads_email_integration_password']                            = 'Password';
+$lang['leads_email_integration_password']                            = 'كلمة السو';
 $lang['leads_email_integration_default_source']                      = 'Default Source';
 $lang['leads_email_integration_check_every']                         = 'Check Every (minutes)';
 $lang['leads_email_integration_default_assigned']                    = 'Responsible for new lead';
 $lang['leads_email_encryption']                                      = 'Encryption';
 $lang['leads_email_integration_updated']                             = 'Email Integration Updated';
 $lang['leads_email_integration_default_status']                      = 'Default Status';
-$lang['leads_email_integration_folder']                              = 'Folder';
+$lang['leads_email_integration_folder']                              = 'ملف';
 $lang['leads_email_integration_notify_when_lead_imported']           = 'Notify when lead imported';
 $lang['leads_email_integration_only_check_unseen_emails']            = 'Only check non opened emails';
 $lang['leads_email_integration_only_check_unseen_emails_help']       = 'The script will auto set the email to opened after check. This is used to prevent checking all the emails again and again. Its not recommended to uncheck this option if you have a lot emails and you have setup a lot forwarding to the email you setup for leads';
@@ -1493,7 +1494,7 @@ $lang['leads_email_integration_notify_when_lead_contact_more_times'] = 'Notify i
 $lang['leads_email_integration_test_connection']                     = 'Test IMAP Connection';
 $lang['lead_email_connection_ok']                                    = 'IMAP Connection is good';
 $lang['lead_email_connection_not_ok']                                = 'IMAP Connection is not OK';
-$lang['lead_email_activity']                                         = 'Email Activity';
+$lang['lead_email_activity']                                         = 'تفعيل الإيميل';
 $lang['leads_email_integration_notify_roles']                        = 'Roles to Notify';
 $lang['leads_email_integration_notify_staff']                        = 'Staff Members to Notify';
 $lang['lead_public']                                                 = 'Public';
@@ -1504,16 +1505,16 @@ $lang['kb_group_order'] = 'Order';
 
 # Utilities - BULK PDF Exporter
 $lang['bulk_pdf_exporter']             = 'Bulk PDF Export';
-$lang['bulk_export_pdf_payments']      = 'Payments';
+$lang['bulk_export_pdf_payments']      = 'المدفوعات';
 $lang['bulk_export_pdf_estimates']     = 'التقديرات';
 $lang['bulk_export_pdf_invoices']      = 'الفواتير';
-$lang['bulk_pdf_export_button']        = 'Export';
-$lang['bulk_pdf_export_select_type']   = 'Select Type';
-$lang['no_data_found_bulk_pdf_export'] = 'No data found for export';
-$lang['bulk_export_status_all']        = 'All';
+$lang['bulk_pdf_export_button']        = 'تصدير';
+$lang['bulk_pdf_export_select_type']   = 'اختر الصنف';
+$lang['no_data_found_bulk_pdf_export'] = 'لم يتم العثور على بيانات للتصدير';
+$lang['bulk_export_status_all']        = 'الكل';
 $lang['bulk_export_status']            = 'الحالة';
-$lang['bulk_export_zip_payment_modes'] = 'Made payments by';
-$lang['bulk_export_include_tag']       = 'Include Tag';
+$lang['bulk_export_zip_payment_modes'] = 'المبالغ المدفوعة حسب';
+$lang['bulk_export_include_tag']       = 'تضمين الوسم';
 $lang['bulk_export_include_tag_help']  = 'eq. Original or Copy. The tag will be outputted in the PDF. Recommended to use only 1 tag';
 
 
@@ -1523,71 +1524,71 @@ $lang['clients_nav_proposals'] = 'المقترحات';
 $lang['clients_nav_support']   = 'الدعم الفني';
 
 # General
-$lang['more']            = 'More';
-$lang['add_item']        = 'Add Item';
-$lang['goto_admin_area'] = 'Go to admin area';
-$lang['delete']          = 'Delete %s';
-$lang['welcome_top']     = 'Welcome %s';
+$lang['more']            = 'المزيد';
+$lang['add_item']        = 'إضافة عنصر';
+$lang['goto_admin_area'] = 'الانتقال لوضع المسؤول';
+$lang['delete']          = 'حذف %s';
+$lang['welcome_top']     = 'أهلا بك %s';
 
 # Customers
-$lang['customer_permissions']         = 'Permissions';
+$lang['customer_permissions']         = 'الأوذونات';
 $lang['customer_permission_invoice']  = 'الفواتير';
 $lang['customer_permission_estimate'] = 'التقديرات';
 $lang['customer_permission_proposal'] = 'المقترحات';
 $lang['customer_permission_contract'] = 'العقود';
-$lang['customer_permission_support']  = 'Support';
+$lang['customer_permission_support']  = 'الدعم';
 
 #Tasks
-$lang['task_related_to'] = 'Related To';
+$lang['task_related_to'] = 'متعلق بـ';
 
 # Send file
-$lang['custom_file_fail_send']    = 'Failed to send file';
-$lang['custom_file_success_send'] = 'The file is successfully send to %s';
-$lang['send_file_subject']        = 'Email Subject';
+$lang['custom_file_fail_send']    = 'فشل في إرسال الملف';
+$lang['custom_file_success_send'] = 'تم ارسال الملف بنجاح لـ %s ';
+$lang['send_file_subject']        = 'عنوان الإيميل';
 $lang['send_file_email']          = 'البريد الإلكتروني';
-$lang['send_file_message']        = 'Message';
-$lang['send_file']                = 'Send File';
-$lang['add_checklist_item']       = 'Checklist Item';
-$lang['task_checklist_items']     = 'Checklist Items';
+$lang['send_file_message']        = 'الرسالة';
+$lang['send_file']                = 'إرسال الملف';
+$lang['add_checklist_item']       = 'قائمة العنصر المطلوب';
+$lang['task_checklist_items']     = 'قائمة العناصر المطلوبة';
 
 # Import
-$lang['default_pass_clients_import'] = 'Default password for all contacts';
-$lang['simulate_import']             = 'Simulate Import';
-$lang['import_upload_failed']        = 'Upload Failed';
-$lang['import_total_imported']       = 'Total Imported: %s';
+$lang['default_pass_clients_import'] = 'كلمه المرور الإفتراضية لكافة العملاء';
+$lang['simulate_import']             = 'محاكاة المستورد';
+$lang['import_upload_failed']        = 'فشل في التحميل';
+$lang['import_total_imported']       = 'إجمالي المستورد: %s';
 $lang['import_leads']                = 'Import Leads';
-$lang['import_customers']            = 'Import Customers';
-$lang['choose_csv_file']             = 'Choose CSV File';
-$lang['import']                      = 'Import';
+$lang['import_customers']            = 'استيراد العملاء';
+$lang['choose_csv_file']             = 'اختار ملف CSV';
+$lang['import']                      = 'استيراد';
 $lang['lead_import_status']          = 'الحالة';
-$lang['lead_import_source']          = 'Source';
+$lang['lead_import_source']          = 'المصدر';
 
 # Bulk PDF Export
 $lang['bulk_export_pdf_proposals'] = 'المقترحات';
 
 # Invoices
-$lang['delete_invoice'] = 'Delete';
-$lang['items']          = 'Items';
-$lang['support']        = 'Support';
+$lang['delete_invoice'] = 'حذف';
+$lang['items']          = 'العناصر';
+$lang['support']        = 'الدعم';
 $lang['new_ticket']     = 'تذكرة جديدة';
 
 # Reminders
 $lang['calendar_lead_reminder']  = 'Lead Reminder';
 $lang['lead_set_reminder_title'] = 'Set Lead Reminder';
 $lang['set_reminder_tooltip']    = 'This option allows you to never forget anything about your customers.';
-$lang['client_reminders_tab']    = 'Reminders';
-$lang['leads_reminders_tab']     = 'Reminders';
+$lang['client_reminders_tab']    = 'التذكيرات';
+$lang['leads_reminders_tab']     = 'التذكيرات';
 
 # Tickets
-$lang['delete_ticket_reply']  = 'Delete Reply';
-$lang['ticket_priority_edit'] = 'Edit Priority';
-$lang['ticket_priority_add']  = 'Add Priority';
-$lang['ticket_status_edit']   = 'Edit Ticket Status';
-$lang['ticket_service_edit']  = 'Edit Ticket Service';
-$lang['edit_department']      = 'Edit Department';
+$lang['delete_ticket_reply']  = 'حذف التعليق';
+$lang['ticket_priority_edit'] = 'تعديل الأولولية';
+$lang['ticket_priority_add']  = 'إضافة أولوية';
+$lang['ticket_status_edit']   = 'تعديل حالة التذكرة';
+$lang['ticket_service_edit']  = 'تعديل خدمة التذكرة';
+$lang['edit_department']      = 'تعديل القسم';
 
 # Expenses
-$lang['edit_expense_category'] = 'Edit Expense Category';
+$lang['edit_expense_category'] = 'تعديل تصنيف النفقات';
 
 # Settings
 $lang['customer_default_country']                                 = 'Default Country';
@@ -1620,12 +1621,12 @@ $lang['estimate_status_changed_success'] = 'Estimate status changed';
 $lang['estimate_status_changed_fail']    = 'Failed to change estimate status';
 
 # Proposals
-$lang['proposal_to']                            = 'Company / Name';
+$lang['proposal_to']                            = 'الشركة/ الإسم';
 $lang['proposal_date']                          = 'التاريخ';
 $lang['proposal_address']                       = 'العنوان';
 $lang['proposal_phone']                         = 'الهاتف';
-$lang['proposal_email']                         = 'Email';
-$lang['proposal_date_created']                  = 'Date Created';
+$lang['proposal_email']                         = 'الإيميل';
+$lang['proposal_date_created']                  = 'تاريخ الإنشاء';
 $lang['proposal_open_till']                     = 'صالح حتى';
 $lang['proposal_status_open']                   = 'مفتوح';
 $lang['proposal_status_accepted']               = 'المقبولة';
@@ -1635,55 +1636,55 @@ $lang['proposal_expired']                       = 'المنتهية';
 $lang['proposal_subject']                       = 'الموضوع';
 $lang['proposal_total']                         = 'الإجمالي';
 $lang['proposal_status']                        = 'الحالة';
-$lang['proposals_list_all']                     = 'All';
+$lang['proposals_list_all']                     = 'الكل';
 $lang['proposals_leads_related']                = 'Leads Related';
-$lang['proposals_customers_related']            = 'Customers Related';
+$lang['proposals_customers_related']            = 'عملاء ذوي صلة';
 $lang['proposal_related']                       = 'Related';
 $lang['proposal_for_lead']                      = 'Lead';
-$lang['proposal_for_customer']                  = 'Customer';
+$lang['proposal_for_customer']                  = 'عميل';
 $lang['proposal']                               = 'المقترح';
-$lang['proposal_lowercase']                     = 'proposal';
+$lang['proposal_lowercase']                     = 'اقتراح';
 $lang['proposals']                              = 'المقترحات';
-$lang['proposals_lowercase']                    = 'proposals';
-$lang['new_proposal']                           = 'New Proposal';
-$lang['proposal_currency']                      = 'Currency';
-$lang['proposal_allow_comments']                = 'Allow Comments';
+$lang['proposals_lowercase']                    = 'مقترحات';
+$lang['new_proposal']                           = 'اقتراح جديد';
+$lang['proposal_currency']                      = 'العملة';
+$lang['proposal_allow_comments']                = 'السماح بالتعليقات';
 $lang['proposal_allow_comments_help']           = 'If you check this options comments will be allowed when your client view the proposal.';
-$lang['proposal_edit']                          = 'Edit';
+$lang['proposal_edit']                          = 'تعديل';
 $lang['proposal_pdf']                           = 'PDF';
-$lang['proposal_send_to_email']                 = 'Send to Email';
-$lang['proposal_send_to_email_title']           = 'Send Proposal to Email';
-$lang['proposal_attach_pdf']                    = 'Attach PDF';
-$lang['proposal_preview_template']              = 'Preview Template';
-$lang['proposal_view']                          = 'View Proposal';
-$lang['proposal_copy']                          = 'Copy';
-$lang['proposal_delete']                        = 'Delete';
-$lang['proposal_to']                            = 'To';
-$lang['proposal_add_comment']                   = 'Add Comment';
-$lang['proposal_sent_to_email_success']         = 'Proposal sent to email successfully';
-$lang['proposal_sent_to_email_fail']            = 'Failed to sent proposal to email';
-$lang['proposal_copy_fail']                     = 'Failed to copy proposal';
-$lang['proposal_copy_success']                  = 'Proposal copied successfully';
-$lang['proposal_status_changed_success']        = 'Proposal status changed successfully';
-$lang['proposal_status_changed_fail']           = 'Failed to change proposal status';
+$lang['proposal_send_to_email']                 = 'إرسال للإيميل';
+$lang['proposal_send_to_email_title']           = 'إرسال المقترح للإيميل';
+$lang['proposal_attach_pdf']                    = 'إرفاق PDF';
+$lang['proposal_preview_template']              = 'عرض القالب';
+$lang['proposal_view']                          = 'عرض المقترح';
+$lang['proposal_copy']                          = 'نسخ';
+$lang['proposal_delete']                        = 'حذف';
+$lang['proposal_to']                            = 'لـ';
+$lang['proposal_add_comment']                   = 'إضافة تعليق';
+$lang['proposal_sent_to_email_success']         = 'تمت عملية إرسال المقترح للإيميل بنجاح';
+$lang['proposal_sent_to_email_fail']            = 'فشل عملية إرسال المقترح للإيميل';
+$lang['proposal_copy_fail']                     = 'فشل في عملية نسخ المقترح';
+$lang['proposal_copy_success']                  = 'تمت عملية نسخ المقترح بنجاح';
+$lang['proposal_status_changed_success']        = 'تم تغيير حالة المقترح بنجاح';
+$lang['proposal_status_changed_fail']           = 'فشل في تغيير حالة المقترح';
 $lang['proposal_assigned']                      = 'Assigned';
-$lang['proposal_comments']                      = 'Comments';
-$lang['proposal_convert']                       = 'Convert';
+$lang['proposal_comments']                      = 'التعليقات';
+$lang['proposal_convert']                       = 'تحويل';
 $lang['proposal_convert_estimate']              = 'تقدير';
 $lang['proposal_convert_invoice']               = 'فاتورة';
-$lang['proposal_convert_to_estimate']           = 'Convert to Estimate';
-$lang['proposal_convert_to_invoice']            = 'Convert to Invoice';
+$lang['proposal_convert_to_estimate']           = 'تحويل إلى تقدير';
+$lang['proposal_convert_to_invoice']            = 'تحويل لفاتورة';
 $lang['proposal_convert_to_lead_disabled_help'] = 'You need to convert the lead to customer in order to create %s';
 $lang['proposal_convert_not_related_help']      = 'The proposal needs to be related to customer in order to convert to %s';
 $lang['proposal_converted_to_estimate_success'] = 'Proposal converted to estimate successfully';
 $lang['proposal_converted_to_invoice_success']  = 'Proposal converted to invoice successfully';
-$lang['proposal_converted_to_estimate_fail']    = 'Failed to convert proposal to estimate';
-$lang['proposal_converted_to_invoice_fail']     = 'Failed to convert proposal to invoice';
+$lang['proposal_converted_to_estimate_fail']    = 'فشل في تحويل المقترح لتقدير';
+$lang['proposal_converted_to_invoice_fail']     = 'فشل في تحويل القترح لفاتورة';
 
 # Proposals - view proposal template
-$lang['proposal_total_info']   = 'Total %s';
-$lang['proposal_accept_info']  = 'Accept';
-$lang['proposal_decline_info'] = 'Decline';
+$lang['proposal_total_info']   = 'المجموع %s';
+$lang['proposal_accept_info']  = 'قبول';
+$lang['proposal_decline_info'] = 'رفض';
 $lang['proposal_pdf_info']     = 'PDF';
 
 # Customers Portal
@@ -1701,85 +1702,85 @@ $lang['customer_ticket_subject']          = 'الموضوع';
 $lang['email_template_proposals_fields_heading'] = 'المقترحات';
 
 # Tasks
-$lang['add_task_attachments']  = 'Attachment';
+$lang['add_task_attachments']  = 'المرفقات';
 $lang['task_view_attachments'] = 'المرفقات';
-$lang['task_view_description'] = 'Description';
+$lang['task_view_description'] = 'الوصف';
 
 # Customer Groups
-$lang['customer_group_add_heading']      = 'Add New Customer Group';
-$lang['customer_group_edit_heading']     = 'Edit Customer Group';
-$lang['new_customer_group']              = 'New Customer Group';
-$lang['customer_group_name']             = 'Name';
-$lang['customer_groups']                 = 'Groups';
-$lang['customer_group']                  = 'Customer Group';
-$lang['customer_group_lowercase']        = 'customer group';
-$lang['customer_have_invoices_by']       = 'Contains invoices by status %s';
-$lang['customer_have_estimates_by']      = 'Contains estimates by status %s';
-$lang['customer_have_contracts_by_type'] = 'Having contracts by type %s';
+$lang['customer_group_add_heading']      = 'إضافة مجموعة عملاء جديدة';
+$lang['customer_group_edit_heading']     = 'تعديل مجموعة العملاء';
+$lang['new_customer_group']              = 'مجموعة عملاء جديدة';
+$lang['customer_group_name']             = 'الإسم';
+$lang['customer_groups']                 = 'المجموعات';
+$lang['customer_group']                  = 'مجموعة العملات';
+$lang['customer_group_lowercase']        = 'مجموعة عملاء';
+$lang['customer_have_invoices_by']       = 'يحتوي علي فواتير حسب الحاله %s';
+$lang['customer_have_estimates_by']      = 'يحتوي على تقدير حسب الحالة %s';
+$lang['customer_have_contracts_by_type'] = 'وجود عقود حسب النوع %s';
 
 # Custom fields
-$lang['custom_field_show_on_table']              = 'Show on table';
-$lang['custom_field_show_on_client_portal']      = 'Show on client portal';
+$lang['custom_field_show_on_table']              = 'اظهار كجدول';
+$lang['custom_field_show_on_client_portal']      = 'إظهار في واجهة العميل';
 $lang['custom_field_show_on_client_portal_help'] = 'If this field is checked also will be shown in tables';
 $lang['custom_field_visibility']                 = 'Visibility';
 
 # Knowledge Base
-$lang['view_articles_list']     = 'View Articles';
-$lang['view_articles_list_all'] = 'All Articles';
-$lang['als_all_articles']       = 'Articles';
-$lang['als_kb_groups']          = 'Groups';
+$lang['view_articles_list']     = 'عرض المقالات';
+$lang['view_articles_list_all'] = 'كل المقالات';
+$lang['als_all_articles']       = 'المقالات';
+$lang['als_kb_groups']          = 'المجموعات';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Spam Filters';
 $lang['spam_filter']                  = 'Spam Filter';
 $lang['new_spam_filter']              = 'New Spam Filter';
-$lang['spam_filter_blocked_senders']  = 'Blocked Senders';
-$lang['spam_filter_blocked_subjects'] = 'Blocked Subjects';
-$lang['spam_filter_blocked_phrases']  = 'Blocked Phrases';
-$lang['spam_filter_content']          = 'Content';
+$lang['spam_filter_blocked_senders']  = 'المرسلون المحظورون';
+$lang['spam_filter_blocked_subjects'] = 'حظر العناوين';
+$lang['spam_filter_blocked_phrases']  = 'عبارات محظورة';
+$lang['spam_filter_content']          = 'المحتوى';
 $lang['spamfilter_edit_heading']      = 'Edit Spam Filter';
 $lang['spamfilter_add_heading']       = 'Add Spam Filter';
-$lang['spamfilter_type']              = 'Type';
+$lang['spamfilter_type']              = 'النوع';
 $lang['spamfilter_type_subject']      = 'الموضوع';
-$lang['spamfilter_type_sender']       = 'Sender';
-$lang['spamfilter_type_phrase']       = 'Phrase';
+$lang['spamfilter_type_sender']       = 'المرسل';
+$lang['spamfilter_type_phrase']       = 'العبارات';
 
 # Tickets
-$lang['block_sender']                = 'Block Sender';
-$lang['sender_blocked']              = 'Sender Blocked';
-$lang['sender_blocked_successfully'] = 'Sender Blocked Successfully';
-$lang['ticket_date_created']         = 'Created';
+$lang['block_sender']                = 'حظر المرسل';
+$lang['sender_blocked']              = 'المرسل المحظور';
+$lang['sender_blocked_successfully'] = 'تم حظر المرسل بنجاح';
+$lang['ticket_date_created']         = 'تم الإنشاء';
 
 #KB
-$lang['edit_kb_group'] = 'Edit group';
+$lang['edit_kb_group'] = 'تعديل المجموعة';
 
 # Leads
-$lang['edit_source'] = 'Edit Source';
-$lang['edit_status'] = 'Edit Status';
+$lang['edit_source'] = 'تعديل المصدر';
+$lang['edit_status'] = 'تعديل الحالة';
 
 # Contacts
-$lang['contract_type_edit'] = 'Edit Contract Type';
+$lang['contract_type_edit'] = 'تعديل نوع العقد';
 
 # Reports
-$lang['report_by_customer_groups'] = 'Total Value By Customer Groups';
+$lang['report_by_customer_groups'] = 'القيمة الإجمالية حسب مجموعات العملاء';
 
 #Utilities
 $lang['ticket_pipe_log']      = 'Ticket Pipe Log';
-$lang['ticket_pipe_name']     = 'From Name';
-$lang['ticket_pipe_email_to'] = 'To';
-$lang['ticket_pipe_email']    = 'From Email';
+$lang['ticket_pipe_name']     = 'من خلال الإسم';
+$lang['ticket_pipe_email_to'] = 'لـ';
+$lang['ticket_pipe_email']    = 'من خلال الإيميل';
 $lang['ticket_pipe_subject']  = 'الموضوع';
-$lang['ticket_pipe_message']  = 'Message';
+$lang['ticket_pipe_message']  = 'الرسالة';
 $lang['ticket_pipe_date']     = 'التاريخ';
 $lang['ticket_pipe_status']   = 'الحالة';
 
 # Home
-$lang['home_latest_activity']   = 'Latest Activity';
-$lang['home_my_tasks']          = 'My Tasks';
-$lang['home_latest_activity']   = 'Latest Activity';
+$lang['home_latest_activity']   = 'آخر النشاطات';
+$lang['home_my_tasks']          = 'مهامي';
+$lang['home_latest_activity']   = 'آخر النشاطات';
 $lang['home_my_todo_items']     = 'My To Do Items';
-$lang['home_widget_view_all']   = 'View All';
-$lang['home_stats_full_report'] = 'Full Report';
+$lang['home_widget_view_all']   = 'إظهار الكل';
+$lang['home_stats_full_report'] = 'تقرير كامل';
 
 # Validation
 $lang['form_validation_required']    = 'The {field} field is required.';
@@ -1910,25 +1911,25 @@ $lang['settings_total_to_words_lowercase'] = 'Number words into lowercase';
 $lang['settings_show_tax_per_item']        = 'Show TAX per item';
 
 # Reports
-$lang['report_sales_months_three_months'] = 'Last 3 months';
+$lang['report_sales_months_three_months'] = 'آخر 3 شهور';
 $lang['report_invoice_number']            = 'رقم الفاتورة';
-$lang['report_invoice_customer']          = 'Customer';
+$lang['report_invoice_customer']          = 'العميل';
 $lang['report_invoice_date']              = 'التاريخ';
 $lang['report_invoice_duedate']           = 'تاريخ الاستحقاق';
 $lang['report_invoice_amount']            = 'الكمية';
-$lang['report_invoice_amount_with_tax']   = 'Amount with tax';
+$lang['report_invoice_amount_with_tax']   = 'المبلغ مع الضريبة';
 $lang['report_invoice_amount_open']       = 'Amount open';
 $lang['report_invoice_status']            = 'الحالة';
 
 #Version 1.0.9
 
 # Home stats
-$lang['home_stats_by_project_status'] = 'Statistics by Project Status';
-$lang['home_invoice_overview']        = 'Invoice overview';
-$lang['home_estimate_overview']       = 'Estimate overview';
-$lang['home_proposal_overview']       = 'Proposal overview';
+$lang['home_stats_by_project_status'] = 'الاحصاءات حسب حالة المشروع';
+$lang['home_invoice_overview']        = 'نظرة عامة على الفواتير';
+$lang['home_estimate_overview']       = 'نظرة عامة على التقديرات';
+$lang['home_proposal_overview']       = 'نظرة عامة على المقترحات';
 $lang['home_lead_overview']           = 'Leads Overview';
-$lang['home_my_projects']             = 'My Projects';
+$lang['home_my_projects']             = 'مشاريعي';
 $lang['home_announcements']           = 'الإخطارات';
 
 # Settings
@@ -2030,54 +2031,54 @@ $lang['project_status_1']                                    = 'لم تبدأ ب
 $lang['project_status_2']                                    = 'جاري العمل عليها';
 $lang['project_status_3']                                    = 'معلقة';
 $lang['project_status_4']                                    = 'تم إنجازها';
-$lang['project_file_dateadded']                              = 'Date uploaded';
-$lang['project_file_filename']                               = 'Filename';
-$lang['project_file__filetype']                              = 'File type';
-$lang['project_file_visible_to_customer']                    = 'Visible to Customer';
-$lang['project_file_uploaded_by']                            = 'Uploaded by';
-$lang['edit_project']                                        = 'Edit Project';
-$lang['copy_project']                                        = 'Copy Project';
-$lang['delete_project']                                      = 'Delete Project';
+$lang['project_file_dateadded']                              = 'تاريخ التحميل';
+$lang['project_file_filename']                               = 'اسم الملف';
+$lang['project_file__filetype']                              = 'نوع الملف';
+$lang['project_file_visible_to_customer']                    = 'مرئي للعميل';
+$lang['project_file_uploaded_by']                            = 'تم تحميله بواسطة';
+$lang['edit_project']                                        = 'تعديل المشروع';
+$lang['copy_project']                                        = 'نسخ المشروع';
+$lang['delete_project']                                      = 'حذف المشروع';
 $lang['project_task_assigned_to_user']                       = 'Task assigned to you';
-$lang['seconds']                                             = 'Seconds';
-$lang['hours']                                               = 'Hours';
-$lang['minutes']                                             = 'Minutes';
-$lang['project']                                             = 'مشروع';
+$lang['seconds']                                             = 'ثواني';
+$lang['hours']                                               = 'ساعات';
+$lang['minutes']                                             = 'دقائق';
+$lang['project']                                             = 'المشروع';
 $lang['project_lowercase']                                   = 'مشروع';
-$lang['projects']                                            = 'Projects';
-$lang['projects_lowercase']                                  = 'projects';
-$lang['project_settings']                                    = 'Project settings';
-$lang['project_invoiced_successfully']                       = 'Project Invoiced Successfully';
-$lang['new_project']                                         = 'New Project';
+$lang['projects']                                            = 'المشاريع';
+$lang['projects_lowercase']                                  = 'مشاريع';
+$lang['project_settings']                                    = 'إعدادات المشروع';
+$lang['project_invoiced_successfully']                       = 'تمت فوتره المشروع بنجاح';
+$lang['new_project']                                         = 'مشروع جديد';
 $lang['project_files']                                       = 'الملفات';
-$lang['project_activity']                                    = 'Activity';
+$lang['project_activity']                                    = 'النشاط';
 $lang['project_name']                                        = 'اسم المشروع';
-$lang['project_description']                                 = 'Description';
-$lang['project_customer']                                    = 'Customer';
+$lang['project_description']                                 = 'وصف';
+$lang['project_customer']                                    = 'العميل';
 $lang['project_start_date']                                  = 'تاريخ البدء';
-$lang['project_datecreated']                                 = 'Date Created';
+$lang['project_datecreated']                                 = 'تاريخ الإنشاء';
 $lang['project_deadline']                                    = 'تاريخ التسليم';
 $lang['project_billing_type']                                = 'نوع الدفع';
 $lang['project_billing_type_fixed_cost']                     = 'Fixed Rate';
-$lang['project_billing_type_project_hours']                  = 'Project Hours';
-$lang['project_billing_type_project_task_hours']             = 'Task Hours';
-$lang['project_billing_type_project_task_hours_hourly_rate'] = 'Based on task hourly rate';
-$lang['project_rate_per_hour']                               = 'Rate Per Hour';
-$lang['project_total_cost']                                  = 'Total Rate';
-$lang['project_members']                                     = 'Members';
+$lang['project_billing_type_project_hours']                  = 'ساعات المشروع';
+$lang['project_billing_type_project_task_hours']             = 'ساعات المهمة';
+$lang['project_billing_type_project_task_hours_hourly_rate'] = 'بناء على معدل ساعة المهمة';
+$lang['project_rate_per_hour']                               = 'المعدل لكل ساعة';
+$lang['project_total_cost']                                  = 'المعدل الإجمال';
+$lang['project_members']                                     = 'الأعضاء';
 $lang['project_member_removed']                              = 'Project member removed successfully';
 $lang['project_overview']                                    = 'Project Overview';
 $lang['project_gant']                                        = 'Gantt View';
 $lang['project_milestones']                                  = 'Milestones';
-$lang['project_milestone_order']                             = 'Order';
+$lang['project_milestone_order']                             = 'الطلب';
 $lang['project_milestone_duedate_passed']                    = 'Due date passed';
 $lang['record_timesheet']                                    = 'Timesheet';
 $lang['new_milestone']                                       = 'New Milestone';
 $lang['edit_milestone']                                      = 'Edit Milestone';
-$lang['milestone_name']                                      = 'Name';
+$lang['milestone_name']                                      = 'الإسم';
 $lang['milestone_due_date']                                  = 'Due date';
 $lang['project_milestone']                                   = 'Milestone';
-$lang['project_notes']                                       = 'Notes';
+$lang['project_notes']                                       = 'الملاحظة';
 $lang['project_timesheets']                                  = 'Timesheets';
 $lang['project_timesheet']                                   = 'Timesheet';
 $lang['milestone_total_logged_time']                         = 'Logged Time';
@@ -2094,9 +2095,9 @@ $lang['project_open_tasks']                                  = 'Open Tasks';
 $lang['timesheet_stop_timer']                                = 'Stop Timer';
 $lang['failed_to_add_project_timesheet_end_time_smaller']    = 'Failed to add timesheet. End time is smaller then start time';
 $lang['project_timesheet_user']                              = 'Member';
-$lang['project_timesheet_start_time']                        = 'Start Time';
-$lang['project_timesheet_end_time']                          = 'End Time';
-$lang['project_timesheet_time_spend']                        = 'Time Spent';
+$lang['project_timesheet_start_time']                        = 'وقت البدء';
+$lang['project_timesheet_end_time']                          = 'وقت الإنتهاء';
+$lang['project_timesheet_time_spend']                        = 'الوقت المنقضي';
 $lang['project_timesheet_task']                              = 'مهمة';
 $lang['project_invoices']                                    = 'الفواتير';
 $lang['total_logged_hours_by_staff']                         = 'Total Logged Time';
@@ -2105,23 +2106,23 @@ $lang['invoice_project_info']                                = 'Project Invoice 
 $lang['invoice_project_data_single_line']                    = 'Single line';
 $lang['invoice_project_data_task_per_item']                  = 'Task per item';
 $lang['invoice_project_data_timesheets_individually']        = 'All timesheets individually';
-$lang['invoice_project_item_name_data']                      = 'Item name';
-$lang['invoice_project_description_data']                    = 'Description';
-$lang['invoice_project_projectname_taskname']                = 'Project name + Task name';
+$lang['invoice_project_item_name_data']                      = 'اسم العنصر';
+$lang['invoice_project_description_data']                    = 'الوصف';
+$lang['invoice_project_projectname_taskname']                = 'اسم المشروع+ اسم المهمة';
 $lang['invoice_project_all_tasks_total_logged_time']         = 'All tasks + total logged time per task';
-$lang['invoice_project_project_name_data']                   = 'Project name';
+$lang['invoice_project_project_name_data']                   = 'اسم المشروع';
 $lang['invoice_project_timesheet_individually_data']         = 'Timesheet start time + end time + total logged time';
 $lang['invoice_project_total_logged_time_data']              = 'Total logged time';
 $lang['project_allow_client_to']                             = 'Allow customer to %s';
 $lang['project_setting_view_task_attachments']               = 'view task attachments';
 $lang['project_setting_view_task_checklist_items']           = 'view task checklist items';
-$lang['project_setting_upload_files']                        = 'upload files';
-$lang['project_setting_view_task_comments']                  = 'view task comments';
-$lang['project_setting_upload_on_tasks']                     = 'upload attachments on tasks';
+$lang['project_setting_upload_files']                        = 'رفع الملفات';
+$lang['project_setting_view_task_comments']                  = 'إظهار التعليقات على المهمة';
+$lang['project_setting_upload_on_tasks']                     = 'رفع مرفقات في المهمة';
 $lang['project_setting_view_task_total_logged_time']         = 'view task total logged time';
 $lang['project_setting_open_discussions']                    = 'open discussions';
 $lang['project_setting_comment_on_tasks']                    = 'comment on project tasks';
-$lang['project_setting_view_tasks']                          = 'view tasks';
+$lang['project_setting_view_tasks']                          = 'إظهار المهمات';
 $lang['project_setting_view_milestones']                     = 'view milestones';
 $lang['project_setting_view_gantt']                          = 'view Gantt';
 $lang['project_setting_view_timesheets']                     = 'view timesheets';
@@ -2129,69 +2130,69 @@ $lang['project_setting_view_activity_log']                   = 'view activity lo
 $lang['project_setting_view_team_members']                   = 'view team members';
 $lang['project_discussion_visible_to_customer_yes']          = 'Visible';
 $lang['project_discussion_visible_to_customer_no']           = 'Not Visible';
-$lang['project_discussion_posted_on']                        = 'Posted on %s';
-$lang['project_discussion_posted_by']                        = 'Posted by %s';
-$lang['project_discussion_failed_to_delete']                 = 'Failed to delete discussion';
-$lang['project_discussion_deleted']                          = 'Discussion deleted successfully';
-$lang['project_discussion_no_activity']                      = 'No Activity';
-$lang['project_discussion']                                  = 'Discussion';
-$lang['project_discussions']                                 = 'Discussions';
-$lang['edit_discussion']                                     = 'Edit Discussion';
-$lang['new_project_discussion']                              = 'Create Discussion';
+$lang['project_discussion_posted_on']                        = 'تم النشر في %s';
+$lang['project_discussion_posted_by']                        = 'نشر بواسطة %s';
+$lang['project_discussion_failed_to_delete']                 = 'فشل حذف المناقشة';
+$lang['project_discussion_deleted']                          = 'تم حذف المناقشة بنجاح';
+$lang['project_discussion_no_activity']                      = 'لا يوجد نشاط';
+$lang['project_discussion']                                  = 'النقاش';
+$lang['project_discussions']                                 = 'النقاشات';
+$lang['edit_discussion']                                     = 'تعديل النقاش';
+$lang['new_project_discussion']                              = 'إنشاء نقاش';
 $lang['project_discussion_subject']                          = 'الموضوع';
-$lang['project_discussion_description']                      = 'Description';
+$lang['project_discussion_description']                      = 'الوصف';
 $lang['project_discussion_show_to_customer']                 = 'Visible to Customer';
-$lang['project_discussion_total_comments']                   = 'Total Comments';
-$lang['project_discussion_last_activity']                    = 'Last Activity';
-$lang['discussion_add_comment']                              = 'Add comment';
-$lang['discussion_newest']                                   = 'Newest';
-$lang['discussion_oldest']                                   = 'Oldest';
+$lang['project_discussion_total_comments']                   = 'إجمالي التعليقات';
+$lang['project_discussion_last_activity']                    = 'آخر نشاط';
+$lang['discussion_add_comment']                              = 'إضافة تعليق';
+$lang['discussion_newest']                                   = 'الأحدث';
+$lang['discussion_oldest']                                   = 'الأقدم';
 $lang['discussion_attachments']                              = 'المرفقات';
-$lang['discussion_send']                                     = 'Send';
-$lang['discussion_reply']                                    = 'Answer';
-$lang['discussion_edit']                                     = 'Edit';
-$lang['discussion_edited']                                   = 'Modified';
-$lang['discussion_you']                                      = 'You';
+$lang['discussion_send']                                     = 'إرسال';
+$lang['discussion_reply']                                    = 'الإجابة';
+$lang['discussion_edit']                                     = 'تعديل';
+$lang['discussion_edited']                                   = 'معدل';
+$lang['discussion_you']                                      = 'أنت';
 $lang['discussion_save']                                     = 'حفظ';
-$lang['discussion_delete']                                   = 'Delete';
-$lang['discussion_view_all_replies']                         = 'Show all replies';
-$lang['discussion_hide_replies']                             = 'Hide replies';
-$lang['discussion_no_comments']                              = 'No comments';
-$lang['discussion_no_attachments']                           = 'No attachments';
+$lang['discussion_delete']                                   = 'حذف';
+$lang['discussion_view_all_replies']                         = 'إظهار جميل الردود';
+$lang['discussion_hide_replies']                             = 'إخفاء الردود';
+$lang['discussion_no_comments']                              = 'لا تعليقات';
+$lang['discussion_no_attachments']                           = 'لا مرفقات';
 $lang['discussion_attachments_drop']                         = 'Drag and drop to upload file';
-$lang['project_note']                                        = 'Note';
-$lang['project_note_private']                                = 'Personal notes';
-$lang['project_save_note']                                   = 'Save note';
+$lang['project_note']                                        = 'ملاحظة';
+$lang['project_note_private']                                = 'ملاحظات شخصية';
+$lang['project_save_note']                                   = 'حفظ الملاحظة';
 
 # Project Activity
-$lang['project_activity_created']                      = 'Created the project';
-$lang['project_activity_updated']                      = 'Updated project';
-$lang['project_activity_removed_team_member']          = 'Removed team member';
-$lang['project_activity_added_team_member']            = 'Added new team member';
+$lang['project_activity_created']                      = 'تم إنشاء المشروع';
+$lang['project_activity_updated']                      = 'تحديث المشروع';
+$lang['project_activity_removed_team_member']          = 'حذف أحد أعضاء الفريق';
+$lang['project_activity_added_team_member']            = 'إضافة عضو للفريق';
 $lang['project_activity_marked_all_tasks_as_complete'] = 'Marked all tasks as complete';
 $lang['project_activity_recorded_timesheet']           = 'Recorded timesheet';
-$lang['project_activity_task_name']                    = 'Task:';
-$lang['project_activity_deleted_discussion']           = 'Deleted Discussion';
-$lang['project_activity_created_discussion']           = 'Created discussion';
+$lang['project_activity_task_name']                    = 'المهمات:';
+$lang['project_activity_deleted_discussion']           = 'حذف المناقشة';
+$lang['project_activity_created_discussion']           = 'إنشاء مناقشة';
 $lang['project_activity_updated_discussion']           = 'Updated discussion';
 $lang['project_activity_commented_on_discussion']      = 'Commented on discussion';
 $lang['project_activity_deleted_discussion_comment']   = 'Deleted discussion comment';
 $lang['project_activity_deleted_milestone']            = 'Deleted milestone';
 $lang['project_activity_updated_milestone']            = 'Updated milestone';
 $lang['project_activity_created_milestone']            = 'Created new milestone';
-$lang['project_activity_invoiced_project']             = 'Invoiced project';
+$lang['project_activity_invoiced_project']             = 'فاتورة المشروع';
 $lang['project_activity_task_marked_complete']         = 'Task marked as complete';
 $lang['project_activity_task_unmarked_complete']       = 'Task unmarked as complete';
-$lang['project_activity_task_deleted']                 = 'Task deleted';
+$lang['project_activity_task_deleted']                 = 'المهمة المحذوفة';
 $lang['project_activity_new_task_comment']             = 'Commented on task';
 $lang['project_activity_new_task_attachment']          = 'Uploaded attachment on task';
 $lang['project_activity_new_task_assignee']            = 'Added new task assignee';
 $lang['project_activity_task_assignee_removed']        = 'Removed task assignee';
 $lang['project_activity_task_timesheet_deleted']       = 'Removed timesheet';
-$lang['project_activity_uploaded_file']                = 'Uploaded project file';
+$lang['project_activity_uploaded_file']                = 'تم تحميل ملف المشروع';
 $lang['project_activity_status_updated']               = 'Updated project status';
 $lang['project_activity_visible_to_customer']          = 'Visible to customer';
-$lang['project_activity_project_file_removed']         = 'Removed project file';
+$lang['project_activity_project_file_removed']         = 'حذف ملف المشروع';
 
 # Customers area
 $lang['clients_my_estimates']                                  = 'التقديرات';
@@ -2205,7 +2206,7 @@ $lang['invoice_marked_as_cancelled_successfully']              = 'Invoice marked
 $lang['invoice_unmarked_as_cancelled']                         = 'Invoice unmarked as cancelled successfully';
 $lang['tasks_reminder_notification_before']                    = 'Task deadline reminder before (Days)';
 $lang['not_task_deadline_reminder']                            = 'Task deadline reminder';
-$lang['dt_length_menu_all']                                    = 'All';
+$lang['dt_length_menu_all']                                    = 'الكل';
 $lang['task_not_finished']                                     = 'Not Completed';
 $lang['task_billed_cant_start_timer']                          = 'Task billed. Timer cant be start';
 $lang['invoice_task_billable_timers_found']                    = 'Started timers found';
@@ -2222,16 +2223,16 @@ $lang['project_tasks_total_timers_stopped']                    = 'Stopped total 
 $lang['project_invoice_timers_started']                        = 'Task timers found running on billable tasks, invoice cannot be created. Please stop task timers to create invoice.';
 $lang['task_start_timer_only_assignee']                        = 'You need to be assigned on this task to start timer!';
 $lang['task_comments']                                         = 'Comments';
-$lang['invoice_total_tax']                                     = 'Total Tax';
-$lang['estimates_total_tax']                                   = 'Total Tax';
-$lang['report_invoice_total_tax']                              = 'Total Tax';
+$lang['invoice_total_tax']                                     = 'إجمالي الضريبة';
+$lang['estimates_total_tax']                                   = 'إجمالي الضريبة';
+$lang['report_invoice_total_tax']                              = 'إجمالي الضريبة';
 $lang['home_tickets']                                          = 'تذاكر';
 $lang['home_project_activity']                                 = 'Latest Project Activity';
 $lang['view_tracking']                                         = 'Views Tracking';
 $lang['view_date']                                             = 'التاريخ';
 $lang['view_ip']                                               = 'IP Address';
 $lang['article_total_views']                                   = 'Total Views';
-$lang['leads_source']                                          = 'Source';
+$lang['leads_source']                                          = 'المصدر';
 $lang['invoices_available_for_merging']                        = 'Invoices Available for Merging';
 $lang['invoices_merge_discount']                               = 'You will have to apply discount of total %s manually to this invoice';
 $lang['invoice_merge_number_warning']                          = 'Merging invoices will create gaps in invoice numbers. Please do not merge invoices if you want no gaps in your invoice history. You also have the option of manually adjusting invoice numbers if you want to fill the gaps.';
